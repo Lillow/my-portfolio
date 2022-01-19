@@ -1,34 +1,49 @@
 @font-face {
-  font-family: 'Cera Pro Medium';
-  src: local('Cera Pro Medium'), local('Cera Pro Medium'),
-    url('../fonts/CeraProMedium.otf') format('opentype');
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway/Raleway-Regular.eot?') format('eot'),
+    url('../fonts/Raleway/Raleway-Regular.woff') format('woff'),
+    url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype'),
+    url('../fonts/Raleway/Raleway-Regular.svg#Raleway') format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Cera Pro Regular';
-  src: local('Cera Pro Regular'), local('Cera Pro Regular'),
-    url('../fonts/CeraProRegular.otf') format('opentype');
+  font-family: 'Raleway Medium';
+  src: url('../fonts/Raleway_Medium/Raleway-Medium.eot?') format('eot'),
+    url('../fonts/Raleway_Medium/Raleway-Medium.woff') format('woff'),
+    url('../fonts/Raleway_Medium/Raleway-Medium.ttf') format('truetype'),
+    url('../fonts/Raleway_Medium/Raleway-Medium.svg#Raleway-Medium')
+      format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
+
+/* @font-face {
+  font-family: 'Raleway Heavy';
+  src: url('../fonts/Raleway_Heavy/Raleway-Heavy.eot?') format('eot'),
+    url('../fonts/Raleway_Heavy/Raleway-Heavy.woff') format('woff'),
+    url('../fonts/Raleway_Heavy/Raleway-Heavy.ttf') format('truetype'),
+    url('../fonts/Raleway_Heavy/Raleway-Heavy.svg#Raleway-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
 
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Cera Pro Medium';
+  font-family: 'Raleway Medium';
 }
 
 ::-moz-selection {
-  background-color: #6610f2;
+  background-color: #6f44b6;
   color: #fafafa;
 }
 
 ::selection {
-  background-color: #6610f2;
+  background-color: #6f44b6;
   color: #fafafa;
 }
 
@@ -63,7 +78,7 @@ h6 {
 button,
 input {
   border: 0;
-  font-family: 'Cera Pro Medium';
+  font-family: 'Raleway Medium';
 }
 
 button:focus,
@@ -72,7 +87,7 @@ input:focus {
 }
 
 body {
-  font-family: 'Cera Pro Medium';
+  font-family: 'Raleway Medium';
   background-color: #fafafa;
 }
 
@@ -99,7 +114,7 @@ header {
   background: rgba 14, 9, 27, 0.6;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
-  border-bottom: 1px solid rgba(114, 114, 126, 0.2);
+  border-bottom: 1px solid rgba(102, 102, 112, 0.274);
   z-index: 999;
   width: 100%;
   position: fixed;
@@ -146,7 +161,7 @@ header .grid-layout nav .nav-list li a {
   color: #bebebe;
   font-size: 2rem;
   position: relative;
-  font-family: 'Cera Pro Medium';
+  font-family: 'Raleway Medium';
 }
 
 header .grid-layout nav .nav-list li a::after {
@@ -331,7 +346,7 @@ header .grid-layout nav .nav-list li a:hover {
   color: #fafafa;
   font-size: 2.5rem;
   font-weight: 500;
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
 }
 
 #s-home .grid-layout #home #home-container-text h2 #home-name {
@@ -339,7 +354,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-home .grid-layout #home #home-container-text h2 .typewriter {
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
 }
 
 #s-home .grid-layout #home #home-container-text a {
@@ -369,7 +384,7 @@ header .grid-layout nav .nav-list li a:hover {
   margin-top: 30px;
   font-size: 18px;
   font-weight: 500;
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
 }
 
 #s-home .grid-layout #home #home-container-text a:hover {
@@ -635,7 +650,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-about .grid-layout #about-text p {
   line-height: 3.2rem;
   color: #bebebe;
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
   font-size: 1.8rem;
 }
 
@@ -732,7 +747,7 @@ header .grid-layout nav .nav-list li a:hover {
   line-height: 28px;
   margin-top: 20px;
   color: #bebebe;
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
   font-size: 1.6rem;
 }
 
@@ -944,7 +959,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-services .grid-layout #services article p {
   line-height: 28px;
   color: #bebebe;
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
   font-size: 1.6rem;
 }
 
@@ -1009,7 +1024,7 @@ header .grid-layout nav .nav-list li a:hover {
   max-width: 500px;
   line-height: 32px;
   color: #bebebe;
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
   font-size: 1.8rem;
 }
 
@@ -1133,7 +1148,7 @@ footer {
 }
 
 footer .grid-layout {
-  border-top: 1px solid rgba(114, 114, 126, 0.2);
+  border-top: 1px solid rgba(102, 102, 112, 0.274);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1160,40 +1175,26 @@ footer .grid-layout {
 
 footer .grid-layout #direitos-autorais {
   margin-top: 20px;
-}
-
-footer .grid-layout p {
   text-align: center;
   color: #72727e;
-  font-family: 'Cera Pro Regular';
+  font-family: 'Raleway';
   font-size: 1.8rem;
 }
 
-footer .grid-layout div {
-  margin-top: 24px;
+footer .social-networks {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
-footer .grid-layout div img {
-  width: 24px;
-  margin-left: 12px;
+footer .social-networks a {
+  padding: 0.6rem;
 }
 
-@media screen and (max-width: 768px) {
-  footer .grid-layout div {
-    width: 100%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  footer .grid-layout div a:nth-child(1) {
-    margin-left: 0px;
-  }
+footer .social-networks a:hover {
+  color: #160101;
 }
 
 .typewriter:after {
