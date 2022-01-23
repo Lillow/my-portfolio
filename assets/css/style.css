@@ -56,7 +56,6 @@ ol {
 
 a {
   text-decoration: none;
-  cursor: url('../image/cursor-pointer.svg'), pointer;
 }
 
 img {
@@ -165,7 +164,7 @@ header .grid-layout nav .nav-list li {
 
 header .grid-layout nav .nav-list li a {
   color: #bebebe;
-  font-size: 2rem;
+  font-size: 2.4rem;
   position: relative;
   font-family: 'Raleway Medium';
 }
@@ -179,13 +178,6 @@ header .grid-layout nav .nav-list li a::after {
   height: 1px;
   bottom: -7px;
   left: 0;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#6f44b6),
-    to(#17161d)
-  );
   background: linear-gradient(270deg, #6f44b6 0%, #17161d 100%);
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
@@ -290,9 +282,7 @@ header .grid-layout nav .nav-list li a:hover {
     opacity: 0;
     margin: 0px 0px 50px 0px;
   }
-  header .grid-layout nav .nav-list li a {
-    font-size: 2.4rem;
-  }
+
   .mobile-menu {
     display: block;
   }
@@ -738,103 +728,62 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 
-#s-projects .grid-layout #projects > article img {
-  margin: 20px 0;
-  border-radius: 5px;
-}
-
 #s-projects .grid-layout #projects > article h3 {
   color: #fafafa;
   font-size: 2.4rem;
   font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-#s-projects .grid-layout #projects > article p {
+#s-projects .grid-layout #projects article p {
   line-height: 28px;
   margin-top: 20px;
   color: #bebebe;
   font-family: 'Raleway';
   font-size: 1.6rem;
+  text-align: center;
+  position: relative;
 }
 
-#s-projects .grid-layout #projects > article > span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 100%;
+#s-projects .grid-layout #projects article p::after {
+  content: '';
+  position: absolute;
+  width: 82%;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -7px;
+  left: 0;
+  background: linear-gradient(270deg, #6f44b6 0%, #17161d 100%);
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1),
+    -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-#s-projects .grid-layout #projects > article > span a {
+#s-projects .grid-layout #projects article p:hover::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+
+#s-projects .grid-layout #projects > article p:hover {
+  color: #fafafa;
+}
+
+#s-projects .grid-layout #projects > article > a {
   width: 50%;
 }
 
 @media screen and (max-width: 992px) {
-  #s-projects .grid-layout #projects > article > span a {
+  #s-projects .grid-layout #projects > article > a {
     width: 100%;
   }
-}
-
-#s-projects .grid-layout #projects > article > span button {
-  background-color: #6f44b6;
-  padding: 10px 25px;
-  color: #fafafa;
-  border: 0;
-  font-weight: 500;
-  font-size: 14px;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 992px) {
-  #s-projects .grid-layout #projects > article > span button {
-    width: 100%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-}
-
-#s-projects .grid-layout #projects > article > span button:hover {
-  background-color: #5429cf;
-}
-
-#s-projects .grid-layout #projects > article .linguagensProjeto {
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto;
-}
-
-#s-projects .grid-layout #projects > article .linguagensProjeto span {
-  padding: 5px;
-  background-color: #0e091b;
-  border-radius: 5px;
-  color: #fafafa;
-  margin-bottom: 5px;
 }
 
 #s-projects .grid-layout a {
@@ -852,13 +801,6 @@ header .grid-layout nav .nav-list li a:hover {
   height: 1px;
   bottom: -7px;
   left: 0;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#6f44b6),
-    to(#17161d)
-  );
   background: linear-gradient(270deg, #6f44b6 0%, #17161d 100%);
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
@@ -1197,6 +1139,10 @@ footer .social-networks {
 
 footer .social-networks a {
   padding: 0.6rem;
+}
+
+footer .social-networks a:hover {
+  color: #fafafa;
 }
 
 .typewriter:after {
