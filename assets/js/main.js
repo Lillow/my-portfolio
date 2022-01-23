@@ -75,44 +75,44 @@ var texto1 = document.querySelector('.mudarTextoDescricao')
 
 document.querySelector('.html').addEventListener('mouseover', function () {
   texto1.innerHTML =
-    'HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir.'
+    'O acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto. O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website.'
 })
 
 document.querySelector('.css').addEventListener('mouseover', function () {
   texto1.innerHTML =
-    'CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML.'
+    'CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos.'
 })
 
 document.querySelector('.js').addEventListener('mouseover', function () {
   texto1.innerHTML =
-    'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.'
+    'JavaScript é uma linguagem de programação que permite a você criar conteúdo de interação que se atualiza dinamicamente, controlar múltimídias, imagens animadas, e tudo o mais que há de intessante.'
 })
 
-document.querySelector('.tailwind').addEventListener('mouseover', function () {
+document.querySelector('.ts').addEventListener('mouseover', function () {
   texto1.innerHTML =
-    'Tailwind CSS é um framework desenvolvido para maximizar o potencial do bom e velho CSS e levá-lo ainda mais longe.'
+    'TypeScript é um superset ou superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando recursos que não estão presentes de maneira nativa na linguagem.'
 })
 
-document.querySelector('.sass').addEventListener('mouseover', function () {
+document.querySelector('.angular').addEventListener('mouseover', function () {
   texto1.innerHTML =
-    'Sass (o pré-processador) é uma linguagem de folhas de estilo. É uma simples linguagem de script usada em arquivos Sass.'
+    'Angular é uma plataforma e framework para construção da interface de aplicações usando HTML, CSS e, principalmente, JavaScript, criada pelos desenvolvedores da Google.'
 })
 
 document.querySelector('.react').addEventListener('mouseover', function () {
   texto1.innerHTML =
-    'React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.'
+    'React é uma biblioteca JavaScript desenvolvida pelo Facebook de código aberto com foco em criar interfaces de usuário em páginas web.'
 })
 
-document.querySelector('.next').addEventListener('mouseover', function () {
+document.querySelector('.java').addEventListener('mouseover', function () {
   texto1.innerHTML =
-    'Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React.'
+    'Java é uma linguagem de programação e um ambiente computacional. Devido a possibilidade de escrever o código apenas uma vez e rodá-lo em diferentes dispositivos, a tecnologia pode ser implementada em praticamente qualquer lugar, desde sites,computadores, celulares, calculadoras, videogames, etc.'
 })
 
 document
-  .querySelector('.styled')
+  .querySelector('.spring')
   .addEventListener('mouseover', function mudarTexto8() {
     texto1.innerHTML =
-      'Styled Components é uma biblioteca que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript.'
+      'O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento, uma vez que é possível reduzir o tempo gasto com as configurações iniciais.'
   })
 
 var sairCaixa = document.getElementsByClassName('sairCaixa')

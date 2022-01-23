@@ -19,7 +19,7 @@
   font-style: normal;
 }
 
-/* @font-face {
+@font-face {
   font-family: 'Raleway Heavy';
   src: url('../fonts/Raleway_Heavy/Raleway-Heavy.eot?') format('eot'),
     url('../fonts/Raleway_Heavy/Raleway-Heavy.woff') format('woff'),
@@ -27,7 +27,7 @@
     url('../fonts/Raleway_Heavy/Raleway-Heavy.svg#Raleway-Heavy') format('svg');
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 * {
   padding: 0;
@@ -106,7 +106,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6610f2;
+  background-color: #6f44b6;
   border-radius: 6px;
 }
 
@@ -142,8 +142,14 @@ header .grid-layout nav {
   }
 }
 
-header .grid-layout nav img {
-  width: 150px;
+header .grid-layout nav h2 {
+  font-size: 4rem;
+  color: #fafafa;
+}
+
+header .grid-layout nav h2 .special-character {
+  font-size: 5rem;
+  color: #6f44b6;
 }
 
 header .grid-layout nav .nav-list {
@@ -177,10 +183,10 @@ header .grid-layout nav .nav-list li a::after {
     linear,
     right top,
     left top,
-    from(#6610f2),
+    from(#6f44b6),
     to(#17161d)
   );
-  background: linear-gradient(270deg, #6610f2 0%, #17161d 100%);
+  background: linear-gradient(270deg, #6f44b6 0%, #17161d 100%);
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
@@ -514,7 +520,7 @@ header .grid-layout nav .nav-list li a:hover {
   transition: 1s all ease;
 }
 
-#s-about .grid-layout #about-photo #photo-iuricode {
+#s-about .grid-layout #about-photo #photo {
   width: 400px;
 }
 
@@ -643,7 +649,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-about .grid-layout #about-text h2 span {
-  color: #6610f2;
+  color: #6f44b6;
   font-size: 6rem;
 }
 
@@ -678,7 +684,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout h2 span {
-  color: #6610f2;
+  color: #6f44b6;
   font-size: 6rem;
 }
 
@@ -714,8 +720,8 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-projects .grid-layout #projects > article:hover {
   border-radius: 5px;
-  -o-border-image: linear-gradient(225deg, #6610f2 0%, #110e1b 100%) 1;
-  border-image: linear-gradient(225deg, #6610f2 0%, #110e1b 100%) 1;
+  -o-border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
+  border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
 @media screen and (max-width: 1200px) {
@@ -777,7 +783,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #projects > article > span button {
-  background-color: #6610f2;
+  background-color: #6f44b6;
   padding: 10px 25px;
   color: #fafafa;
   border: 0;
@@ -832,7 +838,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout a {
-  color: #6610f2;
+  color: #6f44b6;
   font-size: 18px;
   position: relative;
 }
@@ -850,10 +856,10 @@ header .grid-layout nav .nav-list li a:hover {
     linear,
     right top,
     left top,
-    from(#6610f2),
+    from(#6f44b6),
     to(#17161d)
   );
-  background: linear-gradient(270deg, #6610f2 0%, #17161d 100%);
+  background: linear-gradient(270deg, #6f44b6 0%, #17161d 100%);
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
@@ -890,7 +896,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout h2 span {
-  color: #6610f2;
+  color: #6f44b6;
   font-size: 6rem;
 }
 
@@ -919,8 +925,8 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout #services article:hover {
-  -o-border-image: linear-gradient(225deg, #6610f2 0%, #110e1b 100%) 1;
-  border-image: linear-gradient(225deg, #6610f2 0%, #110e1b 100%) 1;
+  -o-border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
+  border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1005,7 +1011,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-skills .grid-layout #skills div h2 span,
 #s-skills .grid-layout #skills article h2 span {
-  color: #6610f2;
+  color: #6f44b6;
   font-size: 6rem;
 }
 
@@ -1071,8 +1077,8 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-skills .grid-layout #skills #skills-cards article:hover {
   border: 1px solid #110e1b;
-  -o-border-image: linear-gradient(225deg, #6610f2 0%, #110e1b 100%) 1;
-  border-image: linear-gradient(225deg, #6610f2 0%, #110e1b 100%) 1;
+  -o-border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
+  border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
 #s-skills .grid-layout #skills #skills-cards article:hover .skills-cards-name,
@@ -1193,17 +1199,13 @@ footer .social-networks a {
   padding: 0.6rem;
 }
 
-footer .social-networks a:hover {
-  color: #160101;
-}
-
 .typewriter:after {
   content: '|';
   margin-left: 5px;
   opacity: 1;
   -webkit-animation: blink 1s infinite;
   animation: blink 1s infinite;
-  color: #6610f2;
+  color: #6f44b6;
 }
 
 @-webkit-keyframes blink {
