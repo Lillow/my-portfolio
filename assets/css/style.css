@@ -786,6 +786,11 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 
+#s-projects .grid-layout #projects > article #iframe {
+  display: flex;
+  justify-content: center;
+}
+
 #s-projects .grid-layout a {
   color: #6f44b6;
   font-size: 18px;
