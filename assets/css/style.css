@@ -231,9 +231,6 @@ header .grid-layout nav .nav-list li a:hover {
         height: 100vh;
         z-index: 999;
         background-color: #110e1b;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
         padding-top: 100px;
         visibility: hidden;
@@ -261,11 +258,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-home .grid-layout #home {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     height: 90vh;
     overflow: hidden;
@@ -274,23 +267,13 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-home .grid-layout #home #home-container-text {
     width: 60%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 @media screen and (max-width: 992px) {
     #s-home .grid-layout #home #home-container-text {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         width: 100%;
         text-align: center;
@@ -320,22 +303,14 @@ header .grid-layout nav .nav-list li a:hover {
         rgba(102, 16, 242, 0) 100%
     );
     color: #fafafa;
-    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding: 15px 30px;
     max-width: 250px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     border-radius: 4px;
     border: 1px solid rgba(102, 16, 242, 0.5);
-    -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     margin-top: 30px;
     font-size: 18px;
@@ -353,79 +328,8 @@ header .grid-layout nav .nav-list li a:hover {
     );
 }
 
-@-webkit-keyframes light {
-    0%,
-    55% {
-        opacity: 0;
-    }
-    60%,
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes light {
-    0%,
-    55% {
-        opacity: 0;
-    }
-    60%,
-    100% {
-        opacity: 1;
-    }
-}
-
-#s-home .grid-layout #home #home-container-photo #logo-lab #luz_2 {
-    opacity: 1;
-    -webkit-animation: lightDelay 8s ease infinite alternate;
-    animation: lightDelay 8s ease infinite alternate;
-}
-
-@-webkit-keyframes lightDelay {
-    0%,
-    60% {
-        opacity: 0;
-    }
-    65%,
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes lightDelay {
-    0%,
-    60% {
-        opacity: 0;
-    }
-    65%,
-    100% {
-        opacity: 1;
-    }
-}
-
-#s-home .grid-layout #home #home-container-photo .object {
-    -webkit-animation: MoveUpDown 4s linear infinite;
-    animation: MoveUpDown 4s linear infinite;
-}
-
-@-webkit-keyframes MoveUpDown {
-    0%,
-    100% {
-        top: 34vh;
-    }
-    50% {
-        top: 38vh;
-    }
-}
-
-@keyframes MoveUpDown {
-    0%,
-    100% {
-        top: 34vh;
-    }
-    50% {
-        top: 38vh;
-    }
+#s-home .grid-layout #home-container-image img {
+    width: 39vh;
 }
 
 #s-about {
@@ -433,142 +337,113 @@ header .grid-layout nav .nav-list li a:hover {
     background-color: #110e1b;
 }
 
-@media screen and (max-width: 992px) {
-    #s-about {
-        padding: 50px 20px;
-    }
-}
-
 #s-about .grid-layout #about {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
-#s-about .grid-layout #about-photo {
+#s-about .grid-layout #about-image {
     width: 50%;
     padding-right: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    -webkit-transition: 1s all ease;
     transition: 1s all ease;
 }
 
-#s-about .grid-layout #about-photo #photo {
-    width: 400px;
-}
-
-#s-about .grid-layout #about-photo:hover {
-    -webkit-transform: scale(1.1);
+#s-about .grid-layout #about-image:hover {
     transform: scale(1.1);
 }
 
-#s-about .grid-layout #about-photo div {
-    display: -webkit-box;
-    display: -ms-flexbox;
+#s-about .grid-layout #about-image div {
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
-#s-about .grid-layout #about-photo div img {
+#s-about .grid-layout #about-image div img {
     width: 45px;
 }
 
-#s-about .grid-layout #about-photo #figura1 {
+#s-about .grid-layout #about-image #figura1 {
     position: absolute;
-    top: 40px;
-    right: 430px;
+    top: 60px;
+    right: 444px;
     background-color: #1a093a;
     border-radius: 10px;
     width: 75px;
     height: 75px;
 }
 
-#s-about .grid-layout #about-photo #figura2 {
+#s-about .grid-layout #about-image #figura2 {
     position: absolute;
-    top: 100px;
-    right: 150px;
+    top: 69px;
+    right: 165px;
     background-color: #1a093a;
     border-radius: 10px;
     width: 75px;
     height: 75px;
 }
 
-#s-about .grid-layout #about-photo #figura3 {
+#s-about .grid-layout #about-image #figura3 {
+    position: absolute;
+    top: 240px;
+    right: 426px;
+    background-color: #1a093a;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+#s-about .grid-layout #about-image #figura4 {
     position: absolute;
     top: 250px;
-    right: 450px;
+    right: 210px;
     background-color: #1a093a;
     border-radius: 10px;
     width: 75px;
     height: 75px;
 }
 
-#s-about .grid-layout #about-photo .icon1 {
-    -webkit-animation: icon-move 3s ease 2.9s infinite alternate;
+#s-about .grid-layout #about-image .icon1 {
+    animation: icon-move 3s ease 3.9s infinite alternate;
+}
+
+#s-about .grid-layout #about-image .icon2 {
     animation: icon-move 3s ease 2.9s infinite alternate;
 }
 
-#s-about .grid-layout #about-photo .icon2 {
-    -webkit-animation: icon-move 3s ease 1.9s infinite alternate;
-    animation: icon-move 3s ease 1.9s infinite alternate;
+#s-about .grid-layout #about-image .icon3 {
+    animation: icon-move 3s ease 1.6s infinite alternate;
 }
 
-#s-about .grid-layout #about-photo .icon3 {
-    -webkit-animation: icon-move 3s ease 0.6s infinite alternate;
+#s-about .grid-layout #about-image .icon4 {
     animation: icon-move 3s ease 0.6s infinite alternate;
 }
 
 @-webkit-keyframes icon-move {
     0% {
-        -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
     100% {
-        -webkit-transform: translate3d(10px, -40px, 0);
         transform: translate3d(10px, -40px, 0);
     }
 }
 
 @keyframes icon-move {
     0% {
-        -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
     100% {
-        -webkit-transform: translate3d(10px, -40px, 0);
         transform: translate3d(10px, -40px, 0);
     }
 }
 
-#s-about .grid-layout #about-photo img {
-    width: 100%;
-    max-width: 400px;
-}
-
 @media screen and (max-width: 1200px) {
-    #s-about .grid-layout #about-photo {
+    #s-about .grid-layout #about-image {
         display: none;
     }
 }
@@ -580,12 +455,7 @@ header .grid-layout nav .nav-list li a:hover {
 @media screen and (max-width: 1200px) {
     #s-about .grid-layout #about-text {
         width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
         padding-left: 0px;
     }
@@ -608,10 +478,6 @@ header .grid-layout nav .nav-list li a:hover {
     color: #bebebe;
     font-family: 'Raleway';
     font-size: 1.8rem;
-}
-
-#s-about .grid-layout #about-text p:nth-child(2) {
-    padding-bottom: 20px;
 }
 
 #s-projects {
