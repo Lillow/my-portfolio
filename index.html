@@ -27,8 +27,9 @@
     />
     <meta property="og:description" content="Full-Stack developer junior" />
     <title>Portfólio | Danillo Silva - Full-Stack developer junior</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css'>
   </head>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
   <body>
     <!-- navbar -->
@@ -159,38 +160,89 @@
       <section id="s-projects">
         <div class="grid-layout">
           <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
-          <ul id="projects">
-            
-            <li class="intervalCardReveal">
-              <a href="https://dsmovie-lillow.netlify.app/" target="_blank"><h3>DSMovie</h3></a>
-              <div id="iframe">
-                <iframe src="https://dsmovie-lillow.netlify.app/" height="300px" width="300px" title="Blog Pessoal"></iframe>
+
+          <div class="carousel slide" id="myCarousel">
+            <div class="carousel-inner">
+              <!-- Slide1 --> 
+              <div class="item active">
+                <ul class="projects">
+                  <li class="span3">
+                    <div class="project">
+                      <a href="https://dsmovie-lillow.netlify.app/" target="_blank"><h3>DSMovie</h3></a>
+                      <div id="iframe">
+                        <iframe src="https://dsmovie-lillow.netlify.app/" height="300px" width="300px" title="Blog Pessoal"></iframe>
+                      </div>
+                      <a href="https://github.com/Lillow/dsmovie" target="_blank"><p>Link do projeto no github</p></a> 
+                    </div>
+                  </li>
+      
+                  <li class="span3">
+                    <div class="project">
+                      <a href="https://nosso-blog-pessoal.netlify.app" target="_blank"><h3>Blog Pessoal</h3></a>
+                      <div id="iframe">
+                        <iframe src="https://nosso-blog-pessoal.netlify.app" height="300px" width="300px" title="Blog Pessoal"></iframe>
+                      </div>
+                      <a href="https://github.com/Lillow/Projeto-Blog-Pessoal-Front" target="_blank"><p>Link do projeto no github</p></a> 
+                    </div>
+                  </li>
+      
+                  <li class="span3">
+                    <div class="project">
+                      <a href="https://pokedex-list-api.netlify.app/" target="_blank"><h3>Pokedex</h3></a>
+                      <div id="iframe">
+                        <iframe src="https://pokedex-list-api.netlify.app/" height="300px" width="300px" title="Blog Pessoal"></iframe>
+                      </div>
+                      <a href="https://github.com/Lillow/pokedex" target="_blank"><p>Link do projeto no github</p></a> 
+                    </div>
+                  </li>
+      
+                </ul>
               </div>
-              <a href="https://github.com/Lillow/dsmovie" target="_blank"><p>Link do projeto no github</p></a> 
-            </li>
-
-            <li class="intervalCardReveal">
-              <a href="https://nosso-blog-pessoal.netlify.app" target="_blank"><h3>Blog Pessoal</h3></a>
-              <div id="iframe">
-                <iframe src="https://nosso-blog-pessoal.netlify.app" height="300px" width="300px" title="Blog Pessoal"></iframe>
+              <!-- /Slide1 -->
+              
+              <!-- Slide2 --> 
+              <div class="item">
+                <ul class="projects">
+                  <li class="span3">
+                    <div class="project">
+                      <a href="https://dsmovie-lillow.netlify.app/" target="_blank"><h3>DSMovie</h3></a>
+                      <div id="iframe">
+                        <iframe src="https://dsmovie-lillow.netlify.app/" height="300px" width="300px" title="Blog Pessoal"></iframe>
+                      </div>
+                      <a href="https://github.com/Lillow/dsmovie" target="_blank"><p>Link do projeto no github</p></a> 
+                    </div>
+                  </li>
+      
+                  <li class="span3">
+                    <div class="project">
+                      <a href="https://nosso-blog-pessoal.netlify.app" target="_blank"><h3>Blog Pessoal</h3></a>
+                      <div id="iframe">
+                        <iframe src="https://nosso-blog-pessoal.netlify.app" height="300px" width="300px" title="Blog Pessoal"></iframe>
+                      </div>
+                      <a href="https://github.com/Lillow/Projeto-Blog-Pessoal-Front" target="_blank"><p>Link do projeto no github</p></a> 
+                    </div>
+                  </li>
+      
+                  <li class="span3">
+                    <div class="project">
+                      <a href="https://pokedex-list-api.netlify.app/" target="_blank"><h3>Pokedex</h3></a>
+                      <div id="iframe">
+                        <iframe src="https://pokedex-list-api.netlify.app/" height="300px" width="300px" title="Blog Pessoal"></iframe>
+                      </div>
+                      <a href="https://github.com/Lillow/pokedex" target="_blank"><p>Link do projeto no github</p></a> 
+                    </div>
+                  </li>
+      
+                </ul>
               </div>
-              <a href="https://github.com/Lillow/Projeto-Blog-Pessoal-Front" target="_blank"><p>Link do projeto no github</p></a> 
-            </li>
-
-            <li class="intervalCardReveal">
-              <a href="https://pokedex-list-api.netlify.app/" target="_blank"><h3>Pokedex</h3></a>
-              <div id="iframe">
-                <iframe src="https://pokedex-list-api.netlify.app/" height="300px" width="300px" title="Blog Pessoal"></iframe>
-              </div>
-              <a href="https://github.com/Lillow/pokedex" target="_blank"><p>Link do projeto no github</p></a> 
-            </li>
-
-          </ul>
-
-          <div class="control-box">                            
-            <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
-            <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
-        </div>
+              <!-- /Slide2 --> 
+            </div>
+  
+            <div class="control-box">                            
+              <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+              <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+          </div>
+          </div>
 
         <div class="github-projects">
           <a id="github-projects"
@@ -412,6 +464,8 @@
     </main>
 
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js'></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
