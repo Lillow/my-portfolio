@@ -513,6 +513,11 @@ header .grid-layout nav .nav-list li a:hover {
     text-align: left;
 }
 
+#s-projects .grid-layout #projects li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
 #s-projects .grid-layout #projects > .intervalCardReveal {
     height: auto;
     flex-grow: 1;
@@ -594,13 +599,17 @@ header .grid-layout nav .nav-list li a:hover {
     justify-content: center;
 }
 
-#s-projects .grid-layout a {
+#s-projects .grid-layout .github-projects {
+    margin-top: 20px;
+}
+
+#s-projects .grid-layout .github-projects #github-projects {
     color: #6f44b6;
     font-size: 18px;
     position: relative;
 }
 
-#s-projects .grid-layout a::after {
+#s-projects .grid-layout .github-projects #github-projects::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -613,9 +622,36 @@ header .grid-layout nav .nav-list li a:hover {
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-#s-projects .grid-layout a:hover::after {
+#s-projects .grid-layout .github-projects #github-projects:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+#s-projects .grid-layout .control-box {
+    text-align: center;
+    width: 100%;
+}
+
+#s-projects .grid-layout .control-box .carousel-control {
+    background: #110e1b;
+    color: #ffffff;
+    border: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 33px;
+    width: 36px;
+    right: 0;
+}
+
+#s-projects .grid-layout .control-box .carousel-control:hover {
+    transform: scale(2.4);
 }
 
 #s-services {
