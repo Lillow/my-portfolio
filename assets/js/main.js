@@ -75,12 +75,12 @@ var texto1 = document.querySelector('.mudarTextoDescricao');
 
 document.querySelector('.html').addEventListener('mouseover', function () {
     texto1.innerHTML =
-        'O acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto. O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website.';
+        'O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website.';
 });
 
 document.querySelector('.css').addEventListener('mouseover', function () {
     texto1.innerHTML =
-        'CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos.';
+        'CSS é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site.';
 });
 
 document.querySelector('.js').addEventListener('mouseover', function () {
@@ -105,14 +105,14 @@ document.querySelector('.react').addEventListener('mouseover', function () {
 
 document.querySelector('.java').addEventListener('mouseover', function () {
     texto1.innerHTML =
-        'Java é uma linguagem de programação e um ambiente computacional. Devido a possibilidade de escrever o código apenas uma vez e rodá-lo em diferentes dispositivos, a tecnologia pode ser implementada em praticamente qualquer lugar, desde sites,computadores, celulares, calculadoras, videogames, etc.';
+        'Java é uma linguagem de programação e um ambiente computacional. A tecnologia pode ser implementada em praticamente qualquer lugar, desde sites, computadores, celulares, calculadoras, videogames e etc.';
 });
 
 document
     .querySelector('.spring')
     .addEventListener('mouseover', function mudarTexto8() {
         texto1.innerHTML =
-            'O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento, uma vez que é possível reduzir o tempo gasto com as configurações iniciais.';
+            'O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento.';
     });
 
 var sairCaixa = document.getElementsByClassName('sairCaixa');

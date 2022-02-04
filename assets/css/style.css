@@ -372,7 +372,7 @@ header .grid-layout nav .nav-list li a:hover {
     position: absolute;
     top: 60px;
     right: 444px;
-    background-color: #1a093a;
+    background-color: #12052a;
     border-radius: 10px;
     width: 75px;
     height: 75px;
@@ -382,7 +382,7 @@ header .grid-layout nav .nav-list li a:hover {
     position: absolute;
     top: 69px;
     right: 165px;
-    background-color: #1a093a;
+    background-color: #12052a;
     border-radius: 10px;
     width: 75px;
     height: 75px;
@@ -392,7 +392,7 @@ header .grid-layout nav .nav-list li a:hover {
     position: absolute;
     top: 240px;
     right: 426px;
-    background-color: #1a093a;
+    background-color: #12052a;
     border-radius: 10px;
     width: 75px;
     height: 75px;
@@ -402,7 +402,7 @@ header .grid-layout nav .nav-list li a:hover {
     position: absolute;
     top: 250px;
     right: 210px;
-    background-color: #1a093a;
+    background-color: #12052a;
     border-radius: 10px;
     width: 75px;
     height: 75px;
@@ -680,11 +680,8 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-services .grid-layout #services {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: auto;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 25px 0px;
 }
@@ -695,29 +692,23 @@ header .grid-layout nav .nav-list li a:hover {
     padding: 40px 30px;
     border-radius: 5px;
     margin: 10px;
-    -ms-flex-preferred-size: calc(25% - 20px);
     flex-basis: calc(25% - 20px);
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     border: 1px solid #110e1b;
 }
 
 #s-services .grid-layout #services article:hover {
-    -o-border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
     border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
 @media screen and (max-width: 1200px) {
     #s-services .grid-layout #services article {
-        -ms-flex-preferred-size: calc(50% - 20px);
         flex-basis: calc(50% - 20px);
     }
 }
 
 @media screen and (max-width: 768px) {
     #s-services .grid-layout #services article {
-        -ms-flex-preferred-size: calc(100% - 20px);
         flex-basis: calc(100% - 20px);
     }
 }
@@ -761,16 +752,9 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: auto;
     padding: 10px;
@@ -814,10 +798,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills #skills-cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -829,23 +810,12 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-skills .grid-layout #skills #skills-cards article {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     width: 20%;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     height: 130px;
     background-color: #110e1b;
@@ -856,7 +826,6 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-skills .grid-layout #skills #skills-cards article:hover {
     border: 1px solid #110e1b;
-    -o-border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
     border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
@@ -891,20 +860,13 @@ header .grid-layout nav .nav-list li a:hover {
     height: auto;
     position: absolute;
     padding: 5px;
-    -webkit-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
     background-color: #110e1b;
     width: 125px;
     border-radius: 4px;
     color: #fafafa;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     display: none;
     font-size: 1.8rem;
@@ -934,16 +896,9 @@ footer {
 
 footer .grid-layout {
     border-top: 1px solid rgba(102, 102, 112, 0.274);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
@@ -952,8 +907,6 @@ footer .grid-layout {
 
 @media screen and (max-width: 768px) {
     footer .grid-layout {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
     }
 }
@@ -968,8 +921,6 @@ footer .grid-layout #direitos-autorais {
 
 footer .social-networks {
     margin-top: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
 }
@@ -978,15 +929,10 @@ footer .social-networks a {
     padding: 0.6rem;
 }
 
-footer .social-networks a:hover {
-    color: #fafafa;
-}
-
 .typewriter:after {
     content: '|';
     margin-left: 5px;
     opacity: 1;
-    -webkit-animation: blink 1s infinite;
     animation: blink 1s infinite;
     color: #6f44b6;
 }
