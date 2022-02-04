@@ -506,26 +506,16 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-projects .grid-layout #projects {
     margin: 25px 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     text-align: left;
 }
 
-#s-projects .grid-layout #projects > article {
+#s-projects .grid-layout #projects > .intervalCardReveal {
     height: auto;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex-preferred-size: calc(33% - 20px);
     flex-basis: calc(33% - 20px);
     background-color: #110e1b;
     padding: 30px 25px;
@@ -534,27 +524,24 @@ header .grid-layout nav .nav-list li a:hover {
     border: 1px solid #110e1b;
 }
 
-#s-projects .grid-layout #projects > article:hover {
+#s-projects .grid-layout #projects > .intervalCardReveal:hover {
     border-radius: 5px;
-    -o-border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
     border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
 @media screen and (max-width: 1200px) {
-    #s-projects .grid-layout #projects > article {
-        -ms-flex-preferred-size: calc(50% - 20px);
+    #s-projects .grid-layout #projects > .intervalCardReveal {
         flex-basis: calc(50% - 20px);
     }
 }
 
 @media screen and (max-width: 768px) {
-    #s-projects .grid-layout #projects > article {
-        -ms-flex-preferred-size: calc(100% - 20px);
+    #s-projects .grid-layout #projects > .artiintervalCardRevealcle {
         flex-basis: calc(100% - 20px);
     }
 }
 
-#s-projects .grid-layout #projects > article h3 {
+#s-projects .grid-layout #projects > .intervalCardReveal h3 {
     color: #fafafa;
     font-size: 2.4rem;
     font-weight: 500;
@@ -562,7 +549,11 @@ header .grid-layout nav .nav-list li a:hover {
     margin-bottom: 1rem;
 }
 
-#s-projects .grid-layout #projects article p {
+#s-projects .grid-layout #projects > .intervalCardReveal h3:hover {
+    transform: scale(1.2);
+}
+
+#s-projects .grid-layout #projects .intervalCardReveal a p {
     line-height: 28px;
     margin-top: 20px;
     color: #bebebe;
@@ -572,47 +563,33 @@ header .grid-layout nav .nav-list li a:hover {
     position: relative;
 }
 
-#s-projects .grid-layout #projects article p::after {
+#s-projects .grid-layout #projects .intervalCardReveal a ::after {
     content: '';
     position: absolute;
     width: 82%;
-    -webkit-transform: scaleX(0);
     transform: scaleX(0);
     height: 1px;
     bottom: -7px;
     left: 0;
     background: linear-gradient(270deg, #6f44b6 0%, #17161d 100%);
-    -webkit-transform-origin: bottom right;
     transform-origin: bottom right;
-    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-    transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1),
-        -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-#s-projects .grid-layout #projects article p:hover::after {
-    -webkit-transform: scaleX(1);
+#s-projects .grid-layout #projects .intervalCardReveal a p:hover::after {
     transform: scaleX(1);
-    -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
 }
 
-#s-projects .grid-layout #projects > article p:hover {
+#s-projects .grid-layout #projects > .intervalCardReveal a p:hover {
     color: #fafafa;
 }
 
-#s-projects .grid-layout #projects > article > a {
+#s-projects .grid-layout #projects > .intervalCardReveal > a {
     width: 50%;
 }
 
-@media screen and (max-width: 992px) {
-    #s-projects .grid-layout #projects > article > a {
-        width: 100%;
-    }
-}
-
-#s-projects .grid-layout #projects > article #iframe {
+#s-projects .grid-layout #projects > .intervalCardReveal #iframe {
     display: flex;
     justify-content: center;
 }
@@ -627,25 +604,17 @@ header .grid-layout nav .nav-list li a:hover {
     content: '';
     position: absolute;
     width: 100%;
-    -webkit-transform: scaleX(0);
     transform: scaleX(0);
     height: 1px;
     bottom: -7px;
     left: 0;
     background: linear-gradient(270deg, #6f44b6 0%, #17161d 100%);
-    -webkit-transform-origin: bottom right;
     transform-origin: bottom right;
-    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-    transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1),
-        -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 #s-projects .grid-layout a:hover::after {
-    -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
 }
 
