@@ -504,7 +504,7 @@ header .grid-layout nav .nav-list li a:hover {
     font-size: 6rem;
 }
 
-#s-projects .grid-layout #projects {
+#s-projects .grid-layout .projects {
     margin: 25px 0px;
     display: flex;
     justify-content: space-between;
@@ -513,12 +513,12 @@ header .grid-layout nav .nav-list li a:hover {
     text-align: left;
 }
 
-#s-projects .grid-layout #projects li {
+#s-projects .grid-layout .projects li {
     display: inline-block;
     margin: 0 0 0 15px;
 }
 
-#s-projects .grid-layout #projects > .intervalCardReveal {
+#s-projects .grid-layout .projects > .span3 {
     height: auto;
     flex-grow: 1;
     flex-basis: calc(33% - 20px);
@@ -529,24 +529,24 @@ header .grid-layout nav .nav-list li a:hover {
     border: 1px solid #110e1b;
 }
 
-#s-projects .grid-layout #projects > .intervalCardReveal:hover {
+#s-projects .grid-layout .projects > .span3:hover {
     border-radius: 5px;
     border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
 @media screen and (max-width: 1200px) {
-    #s-projects .grid-layout #projects > .intervalCardReveal {
+    #s-projects .grid-layout .projects > .span3 {
         flex-basis: calc(50% - 20px);
     }
 }
 
 @media screen and (max-width: 768px) {
-    #s-projects .grid-layout #projects > .artiintervalCardRevealcle {
+    #s-projects .grid-layout .projects > .artispan3cle {
         flex-basis: calc(100% - 20px);
     }
 }
 
-#s-projects .grid-layout #projects > .intervalCardReveal h3 {
+#s-projects .grid-layout .projects > .span3 h3 {
     color: #fafafa;
     font-size: 2.4rem;
     font-weight: 500;
@@ -554,11 +554,11 @@ header .grid-layout nav .nav-list li a:hover {
     margin-bottom: 1rem;
 }
 
-#s-projects .grid-layout #projects > .intervalCardReveal h3:hover {
+#s-projects .grid-layout .projects > .span3 h3:hover {
     transform: scale(1.2);
 }
 
-#s-projects .grid-layout #projects .intervalCardReveal a p {
+#s-projects .grid-layout .projects .span3 a p {
     line-height: 28px;
     margin-top: 20px;
     color: #bebebe;
@@ -568,7 +568,7 @@ header .grid-layout nav .nav-list li a:hover {
     position: relative;
 }
 
-#s-projects .grid-layout #projects .intervalCardReveal a ::after {
+#s-projects .grid-layout .projects .span3 a ::after {
     content: '';
     position: absolute;
     width: 82%;
@@ -581,20 +581,20 @@ header .grid-layout nav .nav-list li a:hover {
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-#s-projects .grid-layout #projects .intervalCardReveal a p:hover::after {
+#s-projects .grid-layout .projects .span3 a p:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-#s-projects .grid-layout #projects > .intervalCardReveal a p:hover {
+#s-projects .grid-layout .projects > .span3 a p:hover {
     color: #fafafa;
 }
 
-#s-projects .grid-layout #projects > .intervalCardReveal > a {
+#s-projects .grid-layout .projects > .span3 > a {
     width: 50%;
 }
 
-#s-projects .grid-layout #projects > .intervalCardReveal #iframe {
+#s-projects .grid-layout .projects > .span3 #iframe {
     display: flex;
     justify-content: center;
 }
@@ -636,6 +636,7 @@ header .grid-layout nav .nav-list li a:hover {
     background: #110e1b;
     color: #ffffff;
     border: 0px;
+    border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
     display: inline-block;
