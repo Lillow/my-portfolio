@@ -530,18 +530,6 @@ header .grid-layout nav .nav-list li a:hover {
     border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
 }
 
-@media screen and (max-width: 1200px) {
-    #s-projects .grid-layout .projects > .span3 {
-        flex-basis: calc(50% - 20px);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #s-projects .grid-layout .projects > .artispan3cle {
-        flex-basis: calc(100% - 20px);
-    }
-}
-
 #s-projects .grid-layout .projects > .span3 h3 {
     color: #fafafa;
     font-size: 2.4rem;
@@ -707,12 +695,6 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-services .grid-layout #services article:hover {
     border-image: linear-gradient(225deg, #6f44b6 0%, #110e1b 100%) 1;
-}
-
-@media screen and (max-width: 1200px) {
-    #s-services .grid-layout #services article {
-        flex-basis: calc(50% - 20px);
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -913,12 +895,6 @@ footer .grid-layout {
     padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    footer .grid-layout {
-        justify-content: center;
-    }
-}
-
 footer .grid-layout #direitos-autorais {
     margin-top: 20px;
     text-align: center;
@@ -943,26 +919,6 @@ footer .social-networks a {
     opacity: 1;
     animation: blink 1s infinite;
     color: #6f44b6;
-}
-
-@-webkit-keyframes blink {
-    0%,
-    100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-
-@keyframes blink {
-    0%,
-    100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
 }
 
 .grid-layout {
