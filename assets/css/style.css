@@ -632,10 +632,11 @@ header .grid-layout nav .nav-list li a:hover {
     width: 100%;
 }
 
-#s-projects .grid-layout .control-box .carousel-control {
+#s-projects .grid-layout .control-box .carousel-control-prev,
+#s-projects .grid-layout .control-box .carousel-control-next {
     background: #110e1b;
-    color: #ffffff;
-    border: 0px;
+    color: #bebebe;
+    /* border: 0px; */
     border-radius: 3px;
     margin-left: 10px;
     margin-right: 10px;
@@ -647,12 +648,19 @@ header .grid-layout nav .nav-list li a:hover {
     padding: 4px 10px 0px;
     position: static;
     height: 33px;
-    width: 36px;
+    width: 42px;
     right: 0;
 }
 
-#s-projects .grid-layout .control-box .carousel-control:hover {
-    transform: scale(2.4);
+#s-projects .grid-layout .control-box .carousel-control-prev:hover {
+    transform: scale(1.5);
+    color: #6f44b6;
+    background-color: #bebebe;
+}
+#s-projects .grid-layout .control-box .carousel-control-next:hover {
+    transform: scale(1.5);
+    color: #6f44b6;
+    background-color: #bebebe;
 }
 
 #s-services {
