@@ -122,3 +122,8 @@ for (i = 0; i < sairCaixa.length; i++) {
         texto1.innerHTML = `*passe o cursor no card para ler*`;
     });
 }
+
+$('.carousel').carousel({
+    pause: true,
+    interval: false
+});
