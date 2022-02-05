@@ -6,32 +6,34 @@
   Portfólio criado com o intuito de mostrar meus projetos e outras informações.
 </h4>
 
-![Imagem](assets/image/preview.png)
+![Imagem](assets/images/readme.png)
 
 <h4 align="center"><a href="https://lillow.github.io/portfolio/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
+
 O site é composto por 5 seções diferentes:
 
-- **Home:** Breve apresentação;
-- **Sobre:** Descrição falando um pouco sobre mim;
-- **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
-- **Serviços:** Em andamento; <!-- - **Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos; -->
-- **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens e tecnologias;
-
+-   **Home:** Breve apresentação;
+-   **Sobre:** Descrição falando um pouco sobre mim;
+-   **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
+-   **Serviços:** Em andamento; <!-- - **Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos; -->
+-   **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens e tecnologias;
 
 ---
 
 ## 💼 Tecnologias utilizadas
+
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-- HTML;
-- JavaScript;
-- Css;
+-   HTML;
+-   JavaScript;
+-   Css;
 
 ---
 
 ## Autor<br>
+
 <table>
   <tr>
     <td align="center">
