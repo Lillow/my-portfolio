@@ -54,10 +54,6 @@ ol {
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -556,6 +552,10 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-projects .grid-layout .projects > .span3 h3:hover {
     transform: scale(1.2);
+}
+
+#s-projects .grid-layout .projects > .span3 iframe:hover {
+    transform: scale(1.1);
 }
 
 #s-projects .grid-layout .projects .span3 a p {
