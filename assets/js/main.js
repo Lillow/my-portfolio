@@ -1,3 +1,4 @@
+let show = true;
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks, navLinks2) {
         this.mobileMenu = document.querySelector(mobileMenu);
@@ -19,6 +20,9 @@ class MobileNavbar {
     }
 
     handleClick() {
+        document.body.style.overflow = show ? 'hidden' : 'initial';
+        this.navList.classList.toggle('on', show);
+        show = !show;
         this.navList.classList.toggle(this.activeClass);
         this.mobileMenu.classList.toggle(this.activeClass);
         this.animateLinks();
