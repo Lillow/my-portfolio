@@ -17,7 +17,7 @@ O site é composto por 5 seções diferentes:
 -   **Home:** Breve apresentação;
 -   **Sobre:** Descrição falando um pouco sobre mim;
 -   **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
--   **Serviços:** Em andamento; <!-- - **Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos; -->
+-   **Serviços:**  Exibe através de cards as diferentes experiências profissionais que possuo e o que estudo ou já tenha estudado;
 -   **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens e tecnologias;
 
 ---
