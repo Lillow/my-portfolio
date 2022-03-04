@@ -104,8 +104,13 @@ html {
   border-radius: 6px;
 }
 
+/* .grid-layout {
+  max-width: 1140px;
+  margin: 0 auto;
+} */
+
 header {
-  background: #12052a99;
+  background: #12052a80;
   backdrop-filter: blur(25px);
   border-bottom: 1px solid rgba(102, 102, 112, 0.274);
   z-index: 999;
@@ -225,7 +230,7 @@ header .grid-layout nav .nav-list li a:hover {
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    background-color: #110e1b;
+    background-color: #100622;
     flex-direction: column;
     padding-top: 100px;
     visibility: hidden;
@@ -938,9 +943,4 @@ footer .social-networks a {
   opacity: 1;
   animation: blink 1s infinite;
   color: #6f44b6;
-}
-
-.grid-layout {
-  max-width: 1140px;
-  margin: 0 auto;
 }
