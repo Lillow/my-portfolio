@@ -104,10 +104,10 @@ html {
   border-radius: 6px;
 }
 
-/* .grid-layout {
+.grid-layout {
   max-width: 1140px;
   margin: 0 auto;
-} */
+}
 
 header {
   background: #12052a80;
@@ -330,6 +330,24 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-home .grid-layout #home-container-image img {
   width: 39vh;
+}
+
+.typewriter:after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: blink 1s infinite;
+  color: #6f44b6;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 #s-about {
@@ -935,12 +953,4 @@ footer .social-networks {
 
 footer .social-networks a {
   padding: 0.6rem;
-}
-
-.typewriter:after {
-  content: "|";
-  margin-left: 5px;
-  opacity: 1;
-  animation: blink 1s infinite;
-  color: #6f44b6;
 }
