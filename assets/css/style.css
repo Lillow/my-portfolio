@@ -611,7 +611,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-projects .grid-layout .projects > .span3 #iframe iframe {
   height: 33vh;
-  width: 20vw;
+  width: 18vw;
 }
 
 @media screen and (max-width: 1200px) {
