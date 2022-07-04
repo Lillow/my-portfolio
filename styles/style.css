@@ -1,0 +1,32 @@
+/* navbar */
+header {
+    background-color: #160c31e3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+header h2{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FAFAFA;
+
+}
+
+header h2 > span {
+    color: #6F44B6;
+
+}
+header ul{
+    display: flex;
+}
+
+header ul > li {
+    margin-right: 30px;
+}
+
+header ul > li > a{
+    color: #BEBEBE;
+    font-size: 1rem;
+}
+
+/* navbar */
