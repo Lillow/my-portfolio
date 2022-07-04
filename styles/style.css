@@ -1,32 +1,39 @@
 /* navbar */
-header {
-    background-color: #160c31e3;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-}
+    header {
+        background-color: #160c3180;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        width: 100%;
+        position: fixed;
+    }
 
-header h2{
-    font-weight: 700;
-    font-size: 2rem;
-    color: #FAFAFA;
+    header nav {
+        padding: 0 30px;
+    }
 
-}
+    header nav h2{
+        font-weight: 700;
+        font-size: 48px;
+        color: #FAFAFA;
+    }
 
-header h2 > span {
-    color: #6F44B6;
+    header nav h2 span {
+        color: #6F44B6;
+    }
 
-}
-header ul{
-    display: flex;
-}
+    header ul{
+        text-align: center;
+        
+    }
 
-header ul > li {
-    margin-right: 30px;
-}
+    header ul  li {
+        display: inline;
+        margin-right: 60px;
+    }
 
-header ul > li > a{
-    color: #BEBEBE;
-    font-size: 1rem;
-}
+    header ul  li  a{
+        color: #BEBEBE;
+        font-size: 24px;
+    }
 
 /* navbar */
