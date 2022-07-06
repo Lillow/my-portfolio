@@ -7,10 +7,6 @@
         position: fixed;
     }
 
-    header nav {
-        padding: 0 30px;
-    }
-
     header nav h2{
         font-weight: 700;
         font-size: 48px;
@@ -22,18 +18,27 @@
     }
 
     header ul{
-        text-align: center;
-        
+        text-align: right;
     }
 
     header ul  li {
         display: inline;
-        margin-right: 60px;
+        margin-right: 48px;
     }
 
     header ul  li  a{
         color: #BEBEBE;
         font-size: 24px;
+    }
+
+    header ul #button {
+        display: inline-block;
+        color: #FAFAFA;
+        background-color: #6F44B6;
+        height: 60px;
+        line-height: 60px;
+        padding: 0 20px;
+        box-shadow: 5px 5px 0px #000;
     }
 
 /* navbar */
