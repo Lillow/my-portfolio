@@ -1,24 +1,37 @@
 /* navbar */
     header {
-        background-color: #160c3180;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
+        background-color: #26113b5f;
+        border-bottom: 2px solid #26113b31;
         width: 100%;
+        padding: 10px 20px;
         position: fixed;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Raleway', sans-serif;
     }
 
     header nav h2{
         font-weight: 700;
-        font-size: 48px;
+        font-size: 40px;
         color: #FAFAFA;
+        
     }
 
     header nav h2 span {
         color: #6F44B6;
+        transition: 600ms;
+    }
+
+    header nav h2:hover span {
+        color: #801097;
     }
 
     header ul{
         text-align: right;
+        font-weight: 500;
     }
 
     header ul  li {
@@ -27,18 +40,45 @@
     }
 
     header ul  li  a{
+        display: inline-flex;
         color: #BEBEBE;
         font-size: 24px;
+        align-items: center
+    }
+
+    header ul li a::before {
+        content: "";
+        background-color: #6F44B6;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        transition: 900ms;
+    }
+
+    header ul li a:hover{
+        color:#FAFAFA ; 
+    }
+    
+    header ul li a:hover::before{
+    border-radius: 100%;
+    background-color: #801097;
+        
     }
 
     header ul #button {
         display: inline-block;
         color: #FAFAFA;
         background-color: #6F44B6;
-        height: 60px;
-        line-height: 60px;
-        padding: 0 20px;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 16px;
         box-shadow: 5px 5px 0px #000;
+        margin-right: 0;
+        transition: 600ms;
+    }
+
+    header ul #button:hover{
+        background-color: #801097;
     }
 
 /* navbar */
