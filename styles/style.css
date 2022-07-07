@@ -1,7 +1,7 @@
 /* navbar */
     header {
-        background-color: #26113b5f;
-        border-bottom: 2px solid #26113b31;
+        background-color: #778ca351;
+        border-bottom: 2px solid #4b658451;
         width: 100%;
         padding: 10px 20px;
         position: fixed;
@@ -9,6 +9,7 @@
 
     header nav {
         display: flex;
+        align-items: center;
         justify-content: space-between;
         font-family: 'Raleway', sans-serif;
     }
@@ -16,17 +17,23 @@
     header nav h2{
         font-weight: 700;
         font-size: 40px;
-        color: #FAFAFA;
-        
-    }
-
-    header nav h2 span {
-        color: #6F44B6;
+        color: var(--color-cultured);
+        text-shadow: 5px 5px 0 #000;
         transition: 600ms;
     }
 
+    header nav h2 span {
+        color: var(--color-gloomy-purple);
+        transition: 600ms;
+    }
+
+    header nav h2:hover{
+        letter-spacing: 1px;
+        text-shadow: 5px 5px 2.5px #000;
+    }
+
     header nav h2:hover span {
-        color: #801097;
+        color: var(--color-lighter-purple);
     }
 
     header ul{
@@ -41,14 +48,14 @@
 
     header ul  li  a{
         display: inline-flex;
-        color: #BEBEBE;
+        color: var(--color-twinkle-blue);
         font-size: 24px;
         align-items: center
     }
 
     header ul li a::before {
         content: "";
-        background-color: #6F44B6;
+        background-color: var(--color-gloomy-purple);
         width: 10px;
         height: 10px;
         margin-right: 10px;
@@ -56,19 +63,19 @@
     }
 
     header ul li a:hover{
-        color:#FAFAFA ; 
+        color:var(--color-cultured) ; 
     }
     
     header ul li a:hover::before{
     border-radius: 100%;
-    background-color: #801097;
+    background-color: var(--color-lighter-purple);
         
     }
 
     header ul #button {
         display: inline-block;
-        color: #FAFAFA;
-        background-color: #6F44B6;
+        color: var(--color-cultured);
+        background-color: var(--color-gloomy-purple);
         height: 48px;
         line-height: 48px;
         padding: 0 16px;
@@ -78,7 +85,9 @@
     }
 
     header ul #button:hover{
-        background-color: #801097;
+        background-color: var(--color-lighter-purple);
+        border-radius: 10px;
+        box-shadow: 5px 5px 2.5px #000;
     }
 
 /* navbar */
