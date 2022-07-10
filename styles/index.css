@@ -7,14 +7,14 @@
         /* position: fixed; */
     }
 
-    header nav {
+    header #navbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
         font-family: 'Raleway', sans-serif;
     }
 
-    header nav #logo-lillow{
+    header #navbar #logo-lillow{
         font-weight: 700;
         font-size: 40px;
         color: var(--color-cultured);
@@ -22,18 +22,18 @@
         transition: all 300ms linear;
     }
 
-    header nav #logo-lillow .special-character {
+    header #navbar #logo-lillow .special-character {
         color: var(--color-gloomy-purple);
         transition: all 300ms ease-in-out;
     }
 
-    header nav #logo-lillow:hover{
+    header #navbar #logo-lillow:hover{
         transform: scale(1.08);
         /* letter-spacing: 1px; */
         text-shadow: 5px 5px 2px #000;
     }
 
-    header nav #logo-lillow:hover .special-character {
+    header #navbar #logo-lillow:hover .special-character {
         opacity: 0.8;
     }
 
