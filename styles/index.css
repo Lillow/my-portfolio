@@ -29,12 +29,11 @@
 
     header #navbar #logo-lillow:hover{
         transform: scale(1.08);
-        /* letter-spacing: 1px; */
         text-shadow: 5px 5px 2px var(--color-black);
     }
 
     header #navbar #logo-lillow:hover .special-character {
-        opacity: 0.8;
+        color: var(--color-light-purple);
     }
 
     header #menu{
@@ -47,14 +46,14 @@
         margin-right: 48px;
     }
 
-    header #menu li  a{
+    header #menu li  .menu-item{
         display: inline-flex;
         color: var(--color-twinkle-blue);
         font-size: 24px;
         align-items: center
     }
 
-    header #menu li a::before {
+    header #menu li .menu-item::before {
         content: "";
         background-color: var(--color-gloomy-purple);
         width: 10px;
@@ -63,38 +62,15 @@
         transition: all 100ms linear;
     }
 
-    header #menu li a:hover{
+    header #menu li .menu-item:hover{
         color:var(--color-cultured) ; 
     }
     
-    header #menu li a:hover::before{
-    opacity: 0.8;
+    header #menu li .menu-item:hover::before{
+    background-color: var(--color-light-purple);
     transform: rotate(0.38turn);
         
     }
 
-    header #menu #button-menu {
-        display: inline-block;
-        color: var(--color-cultured);
-        background-color: var(--color-gloomy-purple);
-        height: 48px;
-        line-height: 48px;
-        padding: 0 16px;
-        box-shadow: 5px 5px 0px var(--color-black);
-        margin-right: 0;
-        transition: all 200ms linear;
-    }
-
-    header #menu #button-menu:hover{
-        opacity: 0.8;
-        border-radius: 10px;
-        box-shadow: 5px 5px 2px var(--color-black);
-        transform: scale(1.08);
-    }
-
 /* navbar */
-
-/* home */
-    
-/* home */
 
