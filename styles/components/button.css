@@ -1,0 +1,21 @@
+.button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    display: inline-block;
+    color: var(--color-cultured);
+    background-color: var(--color-gloomy-purple);
+    height: 48px;
+    line-height: 48px;
+    padding: 0 16px;
+    box-shadow: 5px 5px 0px var(--color-black);
+    margin-right: 0;
+    transition: all 200ms linear;
+}
+
+.button:hover{
+    background-color: var(--color-light-purple);
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px var(--color-black);
+    transform: scale(1.08);
+}
