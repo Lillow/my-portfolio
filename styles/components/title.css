@@ -1,6 +1,6 @@
-#box h1{
-    font-size: 30px;
-    color : var(--color-gloomy-purple);
-    text-shadow: 3px 3px 0 #000;
-    margin-bottom: 40px;
+#box h1 {
+  font-size: 30px;
+  color: var(--color-gloomy-purple);
+  text-shadow: 3px 3px 0 var(--color-black);
+  margin-bottom: 40px;
 }
