@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  Portfólio criado com o intuito de mostrar meus projetos e outras informações.
+  Portfólio criado com o objetivo de mostrar meus projetos e outras informações.
 </h4>
 
 ![Imagem](assets/images/readme.png)
