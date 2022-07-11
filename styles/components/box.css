@@ -1,6 +1,10 @@
-#home #box{
+#box{
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+
+
     background-color: var(--color-black-coral);
-    width: 630px;
-    height:184px;
+    display: inline-block;
+    padding: 42px 44px;
     box-shadow: 10px 10px 0 #000;
 }
