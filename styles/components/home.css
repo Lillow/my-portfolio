@@ -1,7 +1,24 @@
 #home {
   background-color: var(--color-russian-violet);
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 70px;
   height: 800px;
   border-bottom: 6px solid var(--color-black);
+}
+
+#home img {
+  width: 700px;
+}
+
+#home .wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#home .navigation {
+  display: flex;
+  justify-content: space-around;
 }
