@@ -1,0 +1,24 @@
+.action {
+  display: inline-flex;
+  color: var(--color-twinkle-blue);
+  font-size: 24px;
+  align-items: center;
+}
+
+.action::before {
+  content: "";
+  background-color: var(--color-gloomy-purple);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  transition: all 100ms linear;
+}
+
+.action:hover {
+  color: inherit;
+}
+
+.action:hover::before {
+  background-color: var(--color-light-purple);
+  transform: rotate(0.38turn);
+}
