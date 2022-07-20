@@ -1,4 +1,4 @@
-#box h1 {
+.title {
   font-size: 30px;
   color: var(--color-gloomy-purple);
   text-shadow: 3px 3px 0 var(--color-black);

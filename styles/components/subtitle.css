@@ -1,4 +1,4 @@
-#box h2{
-    font-size: 24px;
-    color: var(--color-cultured);
+.subtitle {
+  font-size: 24px;
+  color: var(--color-cultured);
 }
