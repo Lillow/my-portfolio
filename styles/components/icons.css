@@ -1,0 +1,32 @@
+.icon {
+  align-items: center;
+  max-width: 90px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+}
+
+.icon-html-pixel,
+.icon-css-pixel,
+.icon-js-pixel,
+.icon-react-pixel {
+  position: absolute;
+  transition: 1.5s all ease;
+}
+
+.icon-html,
+.icon-css,
+.icon-js,
+.icon-react {
+  transition: 2s all ease;
+  opacity: 0;
+}
+
+.figure1,
+.figure2,
+.figure3,
+.figure4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
