@@ -1,3 +1,15 @@
+#home-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 1s all ease;
+}
+
+#home-image:hover {
+  transform: scale(1.1);
+}
+
 #home-image #lillow-image {
   max-width: 630px;
   max-height: 630px;
@@ -5,9 +17,50 @@
   height: auto;
 }
 
+#home-image .figure1,
+#home-image .figure2,
+#home-image .figure3,
+#home-image .figure4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #home-image .icon {
-  max-width: 100px;
-  max-height: 1000px;
+  align-items: center;
+  max-width: 90px;
+  max-height: 90px;
   width: auto;
   height: auto;
+}
+
+#home-image .icon-html-pixel,
+#home-image .icon-css-pixel,
+#home-image .icon-js-pixel,
+#home-image .icon-react-pixel {
+  position: absolute;
+  transition: 1.5s all ease;
+}
+
+#home-image:hover .icon-html-pixel,
+#home-image:hover .icon-css-pixel,
+#home-image:hover .icon-js-pixel,
+#home-image:hover .icon-react-pixel {
+  opacity: 0;
+}
+
+#home-image .icon-html,
+#home-image .icon-css,
+#home-image .icon-js,
+#home-image .icon-react {
+  transition: 2s all ease;
+  opacity: 0;
+}
+
+#home-image:hover .icon-html,
+#home-image:hover .icon-css,
+#home-image:hover .icon-js,
+#home-image:hover .icon-react {
+  transform: scale(1.2);
+  opacity: 1;
 }
