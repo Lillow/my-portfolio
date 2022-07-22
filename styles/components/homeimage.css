@@ -11,35 +11,9 @@
 }
 
 #home-image #lillow-image {
-  max-width: 630px;
-  max-height: 630px;
+  max-width: 595px;
   width: auto;
   height: auto;
-}
-
-#home-image .figure1,
-#home-image .figure2,
-#home-image .figure3,
-#home-image .figure4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#home-image .icon {
-  align-items: center;
-  max-width: 90px;
-  max-height: 90px;
-  width: auto;
-  height: auto;
-}
-
-#home-image .icon-html-pixel,
-#home-image .icon-css-pixel,
-#home-image .icon-js-pixel,
-#home-image .icon-react-pixel {
-  position: absolute;
-  transition: 1.5s all ease;
 }
 
 #home-image:hover .icon-html-pixel,
@@ -49,18 +23,34 @@
   opacity: 0;
 }
 
-#home-image .icon-html,
-#home-image .icon-css,
-#home-image .icon-js,
-#home-image .icon-react {
-  transition: 2s all ease;
-  opacity: 0;
-}
-
 #home-image:hover .icon-html,
 #home-image:hover .icon-css,
 #home-image:hover .icon-js,
 #home-image:hover .icon-react {
   transform: scale(1.2);
   opacity: 1;
+}
+
+#home-image .figure1 {
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+
+#home-image .figure2 {
+  position: absolute;
+  top: 60px;
+  left: 360px;
+}
+
+#home-image .figure3 {
+  position: absolute;
+  bottom: 60px;
+  left: 120px;
+}
+
+#home-image .figure4 {
+  position: absolute;
+  bottom: 60px;
+  left: 360px;
 }
