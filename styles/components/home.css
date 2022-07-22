@@ -9,13 +9,6 @@
   border-bottom: 6px solid var(--color-black);
 }
 
-#home #home-image {
-  max-width: 660px;
-  max-height: 660px;
-  width: auto;
-  height: auto;
-}
-
 #home .wrapper {
   display: flex;
   flex-direction: column;
