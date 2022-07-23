@@ -6,4 +6,16 @@
   display: inline-block;
   padding: 42px 18px;
   box-shadow: 10px 10px 0 var(--color-black);
+  transition: all 600ms linear;
+}
+
+.box:hover {
+  background: radial-gradient(
+    circle,
+    var(--color-twinkle-blue) 0%,
+    var(--color-black-coral) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px var(--color-black);
+  transform: scale(1.04);
 }
