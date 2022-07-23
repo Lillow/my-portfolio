@@ -27,7 +27,7 @@
 #home-image:hover .icon-css,
 #home-image:hover .icon-js,
 #home-image:hover .icon-react {
-  transform: scale(1.2);
+  transform: scale(1.12);
   opacity: 1;
 }
 
@@ -35,22 +35,40 @@
   position: absolute;
   top: 60px;
   left: 120px;
+
+  animation: icon-move 3s linear infinite alternate;
 }
 
 #home-image .figure2 {
   position: absolute;
   top: 60px;
   left: 360px;
+
+  animation: icon-move 3s linear infinite alternate;
 }
 
 #home-image .figure3 {
   position: absolute;
   bottom: 60px;
   left: 120px;
+
+  animation: icon-move 3s linear infinite alternate;
 }
 
 #home-image .figure4 {
   position: absolute;
   bottom: 60px;
   left: 360px;
+
+  animation: icon-move 3s linear infinite alternate;
+}
+
+@keyframes icon-move {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(10px, -40px, 0);
+  }
 }
