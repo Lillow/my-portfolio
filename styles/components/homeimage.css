@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  transition: 1s all ease;
+  transition: 1s all linear;
 }
 
 #home-image:hover {
@@ -36,7 +36,7 @@
   top: 60px;
   left: 120px;
 
-  animation: icon-move 3s linear infinite alternate;
+  animation: icon-move 3s linear 3.6s infinite alternate;
 }
 
 #home-image .figure2 {
@@ -44,7 +44,7 @@
   top: 60px;
   left: 360px;
 
-  animation: icon-move 3s linear infinite alternate;
+  animation: icon-move 3s linear 2.4s infinite alternate;
 }
 
 #home-image .figure3 {
@@ -52,7 +52,7 @@
   bottom: 60px;
   left: 120px;
 
-  animation: icon-move 3s linear infinite alternate;
+  animation: icon-move 3s linear 1.5s infinite alternate;
 }
 
 #home-image .figure4 {
@@ -60,15 +60,15 @@
   bottom: 60px;
   left: 360px;
 
-  animation: icon-move 3s linear infinite alternate;
+  animation: icon-move 3s linear 0.6s infinite alternate;
 }
 
 @keyframes icon-move {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translate(0);
   }
 
   100% {
-    transform: translate3d(10px, -40px, 0);
+    transform: translate(0%, 50%);
   }
 }
