@@ -12,7 +12,10 @@
   width: 10px;
   height: 10px;
   margin-right: 10px;
-  transition: all 100ms linear;
+
+  transition-property: background-color, transform, border-radius;
+  transition-duration: 800ms, 500ms, 800ms;
+  transition-timing-function: ease-in-out;
 }
 
 .action:hover {
@@ -22,4 +25,5 @@
 .action:hover::before {
   background-color: var(--color-light-purple);
   transform: rotate(0.38turn);
+  border-radius: 50%;
 }
