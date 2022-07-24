@@ -16,6 +16,22 @@
   height: auto;
 }
 
+#home-image .light {
+  text-align: calc(0 100%);
+  background-color: #272727;
+  width: 7.5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 61.91%;
+  left: 37.25%;
+  transition: all 600ms ease-in;
+}
+
+#home-image:hover .light {
+  box-shadow: 0px 0px 7.8px 3.5px blue, inset 0 0 10px 10px blue;
+}
+
 #home-image:hover .icon-html-pixel,
 #home-image:hover .icon-css-pixel,
 #home-image:hover .icon-js-pixel,
