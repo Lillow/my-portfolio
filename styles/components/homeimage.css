@@ -1,4 +1,4 @@
-#home-image {
+.home-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,17 +6,17 @@
   transition: 1s all linear;
 }
 
-#home-image:hover {
+.home-image:hover {
   transform: scale(1.1);
 }
 
-#home-image #lillow-image {
+.home-image .lillow-image {
   max-width: 595px;
   width: auto;
   height: auto;
 }
 
-#home-image::after {
+.home-image::after {
   content: "";
   text-align: calc(0 100%);
   background-color: #272727;
@@ -29,26 +29,26 @@
   transition: all 600ms ease-in;
 }
 
-#home-image:hover::after {
+.home-image:hover::after {
   box-shadow: 0px 0px 7.8px 3.5px blue, inset 0 0 10px 10px blue;
 }
 
-#home-image:hover .icon-html-pixel,
-#home-image:hover .icon-css-pixel,
-#home-image:hover .icon-js-pixel,
-#home-image:hover .icon-react-pixel {
+.home-image:hover .icon-html-pixel,
+.home-image:hover .icon-css-pixel,
+.home-image:hover .icon-js-pixel,
+.home-image:hover .icon-react-pixel {
   opacity: 0;
 }
 
-#home-image:hover .icon-html,
-#home-image:hover .icon-css,
-#home-image:hover .icon-js,
-#home-image:hover .icon-react {
+.home-image:hover .icon-html,
+.home-image:hover .icon-css,
+.home-image:hover .icon-js,
+.home-image:hover .icon-react {
   transform: scale(1.12);
   opacity: 1;
 }
 
-#home-image .figure1 {
+.home-image .figure1 {
   position: absolute;
   top: 60px;
   left: 120px;
@@ -56,7 +56,7 @@
   animation: icon-move 3s linear 3.6s infinite alternate;
 }
 
-#home-image .figure2 {
+.home-image .figure2 {
   position: absolute;
   top: 60px;
   left: 360px;
@@ -64,7 +64,7 @@
   animation: icon-move 3s linear 2.4s infinite alternate;
 }
 
-#home-image .figure3 {
+.home-image .figure3 {
   position: absolute;
   bottom: 60px;
   left: 120px;
@@ -72,7 +72,7 @@
   animation: icon-move 3s linear 1.5s infinite alternate;
 }
 
-#home-image .figure4 {
+.home-image .figure4 {
   position: absolute;
   bottom: 60px;
   left: 360px;
