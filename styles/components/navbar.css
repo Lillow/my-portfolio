@@ -1,4 +1,4 @@
-.header {
+.navbar {
   display: flex;
   justify-content: space-between;
   background-color: #778ca351;
@@ -8,7 +8,7 @@
   position: fixed;
 }
 
-.header .menu .menu-item {
+.navbar .menu .menu-item {
   display: inline;
   margin-right: 48px;
 }
