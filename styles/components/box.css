@@ -1,7 +1,5 @@
 .box {
-  font-family: "Press Start 2P", sans-serif;
   text-align: center;
-
   background-color: var(--color-black-coral);
   display: inline-block;
   padding: 42px 18px;
