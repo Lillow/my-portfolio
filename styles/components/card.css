@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-russian-violet);
+  width: 10%;
+  height: 130px;
+}
+
+.card:hover {
+  border-radius: 10px;
+  border: 1px solid var(--color-cultured);
+}
+
+.card:hover .icon-html-pixel,
+.card:hover .icon-css-pixel,
+.card:hover .icon-js-pixel,
+.card:hover .icon-react-pixel {
+  opacity: 0;
+}
+
+.card:hover .icon-html,
+.card:hover .icon-css,
+.card:hover .icon-js,
+.card:hover .icon-react {
+  transform: scale(1.2);
+  opacity: 1;
+}

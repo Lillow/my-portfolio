@@ -1,9 +1,11 @@
-.icon {
-  align-items: center;
+.icon-90 {
   max-width: 90px;
   max-height: 90px;
-  width: auto;
-  height: auto;
+}
+
+.icon-60 {
+  max-width: 66px;
+  max-height: 66px;
 }
 
 .icon-html-pixel,
@@ -22,10 +24,7 @@
   opacity: 0;
 }
 
-.figure1,
-.figure2,
-.figure3,
-.figure4 {
+.figure {
   display: flex;
   justify-content: center;
   align-items: center;

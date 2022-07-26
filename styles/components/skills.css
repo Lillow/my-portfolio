@@ -1,6 +1,4 @@
 #skills {
-  display: flex;
-  justify-content: center;
   background-color: var(--color-black-coral);
   height: 100vh;
 }
