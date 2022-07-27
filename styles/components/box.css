@@ -13,12 +13,12 @@
 
 .box .title,
 .box .subtitle {
-  transition: opacity 600ms linear;
+  transition: opacity 400ms linear;
 }
 
 .box .title-s,
 .box .subtitle-s {
-  transition: opacity 300ms linear;
+  transition: opacity 200ms linear;
 }
 
 .box:hover {
@@ -45,5 +45,5 @@
 }
 
 .box:hover .subtitle-s {
-  opacity: 1;
+  display: inline;
 }
