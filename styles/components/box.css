@@ -3,11 +3,22 @@
   background-color: var(--color-black-coral);
   display: inline-block;
   padding: 42px 18px;
+  box-sizing: border-box;
   box-shadow: 10px 10px 0 var(--color-black);
 
   transition-property: box-shadow, transform, border-radius;
   transition-duration: 400ms;
   transition-timing-function: ease-in-out;
+}
+
+.box .title,
+.box .subtitle {
+  transition: opacity 600ms linear;
+}
+
+.box .title-s,
+.box .subtitle-s {
+  transition: opacity 300ms linear;
 }
 
 .box:hover {
@@ -18,5 +29,21 @@
   );
   border-radius: 10px;
   box-shadow: 10px 10px 2px var(--color-black);
-  transform: scale(1.04);
+  transform: scale(1.03);
+}
+
+.box:hover .title {
+  opacity: 0;
+}
+
+.box:hover .title-s {
+  opacity: 1;
+}
+
+.box:hover .subtitle {
+  opacity: 0;
+}
+
+.box:hover .subtitle-s {
+  opacity: 1;
 }

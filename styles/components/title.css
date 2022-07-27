@@ -1,7 +1,21 @@
+.title-wrapper {
+  color: var(--color-gloomy-purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
 .title {
   font-family: "Press Start 2P", sans-serif;
   font-size: 30px;
-  color: var(--color-gloomy-purple);
   text-shadow: 3px 3px 0 var(--color-black);
-  margin-bottom: 40px;
+}
+
+.title-s {
+  font-weight: 700;
+  font-size: 50px;
+  position: absolute;
+  opacity: 0;
+  text-shadow: 3px 3px 2px var(--color-black);
 }
