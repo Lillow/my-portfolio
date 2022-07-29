@@ -3,12 +3,20 @@
   justify-content: center;
   align-items: center;
   background-color: var(--color-russian-violet);
-  width: 10%;
-  height: 130px;
+  width: 9%;
+  height: 140px;
+  box-sizing: border-box;
+  transition: all 400ms linear;
 }
 
 .card:hover {
   border-radius: 10px;
+  background: radial-gradient(
+    circle,
+    var(--color-gloomy-purple) 15%,
+    var(--color-gloomy-purple) 30%,
+    var(--color-russian-violet) 70%
+  );
   border: 1px solid var(--color-cultured);
 }
 

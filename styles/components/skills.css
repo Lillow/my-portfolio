@@ -1,4 +1,27 @@
 #skills {
+  padding: 50px 25px;
   background-color: var(--color-black-coral);
-  height: 100vh;
+  height: 600px;
+}
+
+.skills-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.skills-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 300px;
+  background-color: var(--color-russian-violet);
+}
+
+.card:hover + .skills-text {
+  border-radius: 10px;
 }
