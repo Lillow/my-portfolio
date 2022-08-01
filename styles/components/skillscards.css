@@ -1,0 +1,22 @@
+.skills-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 0;
+}
+
+.skills-cards:hover ~ .subtitle-wrapper > .subtitle {
+  opacity: 0;
+}
+
+.skills-cards:hover ~ .subtitle-wrapper > .subtitle-b {
+  opacity: 1;
+}
+.skills-cards:hover + .skills-text {
+  border-radius: 10px;
+  background: radial-gradient(
+    circle,
+    var(--color-gloomy-purple) 10%,
+    var(--color-russian-violet) 100%
+  );
+}
