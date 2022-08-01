@@ -1,27 +1,18 @@
 #skills {
-  padding: 50px 25px;
+  padding: 50px 100px;
   background-color: var(--color-black-coral);
   height: 600px;
 }
 
-.skills-cards {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 30px;
-  margin: 50px 0;
+#skills .subtitle-wrapper {
+  position: relative;
+  bottom: 580px;
 }
 
-.skills-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 80%;
-  height: 300px;
-  background-color: var(--color-russian-violet);
+#skills .subtitle-wrapper > .subtitle {
+  transition: opacity 400ms linear;
 }
 
-.card:hover + .skills-text {
-  border-radius: 10px;
+#skills .subtitle-wrapper > .subtitle-b {
+  transition: opacity 200ms linear;
 }
