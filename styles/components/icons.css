@@ -23,9 +23,3 @@
   transition: 2s all ease;
   opacity: 0;
 }
-
-.figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

@@ -1,15 +1,14 @@
 .skills-cards {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 70px 0;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.skills-cards:hover ~ .subtitle-wrapper > .subtitle {
+.skills-container:hover + .subtitle-wrapper > .subtitle {
   opacity: 0;
 }
 
-.skills-cards:hover ~ .subtitle-wrapper > .subtitle-b {
+.skills-container:hover + .subtitle-wrapper > .subtitle-b {
   opacity: 1;
 }
 .skills-cards:hover + .skills-text {

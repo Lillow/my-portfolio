@@ -28,8 +28,10 @@
     <link rel="stylesheet" href="./styles/settings/reset.css" />
     <link rel="stylesheet" href="./styles/components/navbar.css" />
     <link rel="stylesheet" href="./styles/components/home.css" />
-    <link rel="stylesheet" href="./styles/components/skills.css" />
     <link rel="stylesheet" href="./styles/components/homeimage.css" />
+    <link rel="stylesheet" href="./styles/components/skills.css" />
+    <link rel="stylesheet" href="./styles/components/skillscards.css" />
+    <link rel="stylesheet" href="./styles/components/skillstext.css" />
     <link rel="stylesheet" href="./styles/components/logolillow.css" />
     <link rel="stylesheet" href="./styles/components/box.css" />
     <link rel="stylesheet" href="./styles/components/title.css" />
@@ -38,8 +40,6 @@
     <link rel="stylesheet" href="./styles/components/button.css" />
     <link rel="stylesheet" href="./styles/components/icons.css" />
     <link rel="stylesheet" href="./styles/components/card.css" />
-    <link rel="stylesheet" href="./styles/components/skillscards.css" />
-    <link rel="stylesheet" href="./styles/components/skillstext.css" />
     <link rel="stylesheet" href="./styles/settings/colors.css" />
     <title>Portfólio | Danillo Silva - Full-Stack developer junior</title>
   </head>
@@ -67,7 +67,7 @@
             <a class="action" href="">Projetos</a>
           </li>
           <li class="menu-item">
-            <a class="action" href="" lang="en">Skills</a>
+            <a class="action" href="#skills" lang="en">Skills</a>
           </li>
           <li class="menu-item">
             <a class="button" href="">Contatos</a>
@@ -110,7 +110,7 @@
             alt="Imagem de início"
           />
 
-          <div class="figure figure1">
+          <div class="figure1">
             <img
               class="icon-90 icon-html-pixel"
               src="./assets/icons/icon-html-pixel.png"
@@ -124,7 +124,7 @@
             />
           </div>
 
-          <div class="figure figure2">
+          <div class="figure2">
             <img
               class="icon-90 icon-css-pixel"
               src="./assets/icons/icon-css-pixel.png"
@@ -138,7 +138,7 @@
             />
           </div>
 
-          <div class="figure figure3">
+          <div class="figure3">
             <img
               class="icon-90 icon-js-pixel"
               src="./assets/icons/icon-js-pixel.png"
@@ -152,7 +152,7 @@
             />
           </div>
 
-          <div class="figure figure4">
+          <div class="figure4">
             <img
               class="icon-90 icon-react-pixel"
               src="./assets/icons/icon-react-pixel.png"
@@ -171,67 +171,73 @@
 
       <!-- Skills -->
       <section id="skills">
-        <div class="skills-cards">
-          <article class="figure card">
-            <img
-              class="icon-60 icon-html-pixel"
-              src="./assets/icons/icon-html-pixel.png"
-              alt="Figura HTML pixel"
-            />
+        <div class="skills-container">
+          <div class="skills-cards">
+            <article class="card">
+              <img
+                class="icon-60 icon-html-pixel"
+                src="./assets/icons/icon-html-pixel.png"
+                alt="Figura HTML pixel"
+              />
+              <img
+                class="icon-60 icon-html"
+                src="./assets/icons/icon-html.svg"
+                alt="Figura HTML"
+              />
+            </article>
 
-            <img
-              class="icon-60 icon-html"
-              src="./assets/icons/icon-html.svg"
-              alt="Figura HTML"
-            />
-          </article>
+            <article class="card">
+              <img
+                class="icon-60 icon-css-pixel"
+                src="./assets/icons/icon-css-pixel.png"
+                alt="Figura CSS pixel"
+              />
+              <img
+                class="icon-60 icon-css"
+                src="./assets/icons/icon-css.svg"
+                alt="Figura CSS"
+              />
+            </article>
 
-          <article class="figure card">
-            <img
-              class="icon-60 icon-css-pixel"
-              src="./assets/icons/icon-css-pixel.png"
-              alt="Figura CSS pixel"
-            />
+            <article class="card">
+              <img
+                class="icon-60 icon-js-pixel"
+                src="./assets/icons/icon-js-pixel.png"
+                alt="Figura JavaScript pixel"
+              />
+              <img
+                class="icon-60 icon-js"
+                src="./assets/icons/icon-js.svg"
+                alt="Figura JavaScript"
+              />
+            </article>
 
-            <img
-              class="icon-60 icon-css"
-              src="./assets/icons/icon-css.svg"
-              alt="Figura CSS"
-            />
-          </article>
+            <article class="card">
+              <img
+                class="icon-60 icon-react-pixel"
+                src="./assets/icons/icon-react-pixel.png"
+                alt="Figura React pixel"
+              />
+              <img
+                class="icon-60 icon-react"
+                src="./assets/icons/icon-react.svg"
+                alt="Figura React"
+              />
+            </article>
 
-          <article class="figure card">
-            <img
-              class="icon-60 icon-js-pixel"
-              src="./assets/icons/icon-js-pixel.png"
-              alt="Figura JavaScript pixel"
-            />
+            <article class="card"></article>
 
-            <img
-              class="icon-60 icon-js"
-              src="./assets/icons/icon-js.svg"
-              alt="Figura JavaScript"
-            />
-          </article>
+            <article class="card"></article>
 
-          <article class="figure card">
-            <img
-              class="icon-60 icon-react-pixel"
-              src="./assets/icons/icon-react-pixel.png"
-              alt="Figura React pixel"
-            />
+            <article class="card"></article>
 
-            <img
-              class="icon-60 icon-react"
-              src="./assets/icons/icon-react.svg"
-              alt="Figura React"
-            />
+            <article class="card"></article>
+          </div>
+
+          <article class="skills-text">
+            <p>*passe o cursor no card para ler*</p>
           </article>
         </div>
-
-        <article class="skills-text">
-          <p>*passe o cursor no card para ler*</p>
-        </article>
 
         <div class="subtitle-wrapper">
           <h2 class="subtitle">Skills</h2>

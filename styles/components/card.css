@@ -1,23 +1,24 @@
 .card {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--color-russian-violet);
-  width: 10%;
-  height: 140px;
-  box-sizing: border-box;
+  border: 1px solid var(--color-russian-violet);
+  width: 20%;
+  flex-grow: 1;
+  height: 130px;
   transition: all 400ms linear;
 }
 
 .card:hover {
   border-radius: 10px;
+  border: 1px solid var(--color-cultured);
   background: radial-gradient(
     circle,
     var(--color-gloomy-purple) 15%,
     var(--color-gloomy-purple) 30%,
     var(--color-russian-violet) 70%
   );
-  border: 1px solid var(--color-cultured);
 }
 
 .card:hover .icon-html-pixel,

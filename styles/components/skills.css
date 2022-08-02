@@ -1,12 +1,16 @@
 #skills {
-  padding: 50px 100px;
+  padding: 140px 70px 50px;
   background-color: var(--color-black-coral);
-  height: 600px;
+}
+
+#skills > .skills-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 #skills .subtitle-wrapper {
   position: relative;
-  bottom: 580px;
+  bottom: 390px;
 }
 
 #skills .subtitle-wrapper > .subtitle {
