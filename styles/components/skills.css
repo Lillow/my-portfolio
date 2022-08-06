@@ -1,6 +1,7 @@
 #skills {
   padding: 140px 70px 50px;
   background-color: var(--color-black-coral);
+  border-bottom: 6px solid var(--color-black);
 }
 
 #skills > .skills-container {
