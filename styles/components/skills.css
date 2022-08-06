@@ -9,15 +9,19 @@
   justify-content: space-between;
 }
 
-#skills .subtitle-wrapper {
+#skills .title {
   position: relative;
   bottom: 390px;
 }
 
-#skills .subtitle-wrapper > .subtitle {
+#skills .title > .title-text1 {
+  font-size: 24px;
+  color: var(--color-cultured);
   transition: opacity 400ms linear;
 }
 
-#skills .subtitle-wrapper > .subtitle-b {
+#skills .title > .title-text2 {
+  font-size: 36px;
+  color: var(--color-cultured);
   transition: opacity 200ms linear;
 }

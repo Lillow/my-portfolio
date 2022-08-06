@@ -4,11 +4,11 @@
   gap: 30px;
 }
 
-.skills-container:hover + .subtitle-wrapper > .subtitle {
+.skills-container:hover + .title > .title-text1 {
   opacity: 0;
 }
 
-.skills-container:hover + .subtitle-wrapper > .subtitle-b {
+.skills-container:hover + .title > .title-text2 {
   opacity: 1;
 }
 .skills-cards:hover + .skills-text {

@@ -1,4 +1,4 @@
-.subtitle-wrapper {
+.subtitle {
   color: var(--color-cultured);
   display: flex;
   justify-content: center;
@@ -6,22 +6,12 @@
   text-align: center;
 }
 
-.subtitle {
+.subtitle-text1 {
   font-family: "Press Start 2P", sans-serif;
   font-size: 24px;
 }
 
-.subtitle-wrapper {
-  text-align: center;
-}
-
-.subtitle-s {
+.subtitle-text2 {
   position: absolute;
   display: none;
-}
-
-.subtitle-b {
-  font-size: 36px;
-  position: absolute;
-  opacity: 0;
 }

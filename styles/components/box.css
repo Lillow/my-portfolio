@@ -11,13 +11,13 @@
   transition-timing-function: ease-in-out;
 }
 
-.box .title,
-.box .subtitle {
+.box .title-text1,
+.box .subtitle-text1 {
   transition: opacity 400ms linear;
 }
 
-.box .title-s,
-.box .subtitle-s {
+.box .title-text2,
+.box .subtitle-text2 {
   transition: opacity 200ms linear;
 }
 
@@ -32,18 +32,18 @@
   transform: scale(1.03);
 }
 
-.box:hover .title {
+.box:hover .title-text1 {
   opacity: 0;
 }
 
-.box:hover .title-s {
+.box:hover .title-text2 {
   opacity: 1;
 }
 
-.box:hover .subtitle {
+.box:hover .subtitle-text1 {
   opacity: 0;
 }
 
-.box:hover .subtitle-s {
+.box:hover .subtitle-text2 {
   display: inline;
 }
