@@ -21,17 +21,25 @@
   );
 }
 
-.skills-card:hover .icon-html-pixel,
-.skills-card:hover .icon-css-pixel,
-.skills-card:hover .icon-js-pixel,
-.skills-card:hover .icon-react-pixel {
+.skills-card > .icon1 {
+  max-width: 66px;
+  max-height: 66px;
+  position: absolute;
+  transition: 1.5s all ease;
+}
+
+.skills-card > .icon2 {
+  max-width: 66.9px;
+  max-height: 66.9px;
+  transition: 2s all ease;
   opacity: 0;
 }
 
-.skills-card:hover .icon-html,
-.skills-card:hover .icon-css,
-.skills-card:hover .icon-js,
-.skills-card:hover .icon-react {
+.skills-card:hover .icon1 {
+  opacity: 0;
+}
+
+.skills-card:hover .icon2 {
   transform: scale(1.2);
   opacity: 1;
 }

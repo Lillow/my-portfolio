@@ -33,17 +33,25 @@
   box-shadow: 0px 0px 7.8px 3.5px blue, inset 0 0 10px 10px blue;
 }
 
-.home-image:hover .icon-html-pixel,
-.home-image:hover .icon-css-pixel,
-.home-image:hover .icon-js-pixel,
-.home-image:hover .icon-react-pixel {
+.home-image .icon1 {
+  max-width: 90px;
+  max-height: 90px;
+  position: absolute;
+  transition: 1.5s all ease;
+}
+
+.home-image .icon2 {
+  max-width: 90px;
+  max-height: 90px;
+  transition: 2s all ease;
   opacity: 0;
 }
 
-.home-image:hover .icon-html,
-.home-image:hover .icon-css,
-.home-image:hover .icon-js,
-.home-image:hover .icon-react {
+.home-image:hover .icon1 {
+  opacity: 0;
+}
+
+.home-image:hover .icon2 {
   transform: scale(1.12);
   opacity: 1;
 }
