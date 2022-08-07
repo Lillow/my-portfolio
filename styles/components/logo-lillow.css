@@ -6,9 +6,17 @@
   transition: all 300ms linear;
 }
 
-.logo-lillow .special-character {
+.logo-lillow .character {
   color: var(--color-gloomy-purple);
   transition: all 300ms ease-in-out;
+}
+
+.logo-lillow > .logo::before {
+  content: "<";
+}
+
+.logo-lillow > .logo::after {
+  content: ">";
 }
 
 .logo-lillow:hover {
@@ -16,6 +24,8 @@
   text-shadow: 5px 5px 2px var(--color-black);
 }
 
-.logo-lillow:hover .special-character {
+.logo-lillow:hover > .logo > .character,
+.logo-lillow > .logo::before,
+.logo-lillow > .logo::after {
   color: var(--color-light-purple);
 }
