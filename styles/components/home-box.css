@@ -1,4 +1,4 @@
-.box {
+.home-box {
   text-align: center;
   background-color: var(--color-black-coral);
   display: inline-block;
@@ -11,17 +11,17 @@
   transition-timing-function: ease-in-out;
 }
 
-.box .title-text1,
-.box .subtitle-text1 {
+.home-box .title-text1,
+.home-box .subtitle-text1 {
   transition: opacity 400ms linear;
 }
 
-.box .title-text2,
-.box .subtitle-text2 {
+.home-box .title-text2,
+.home-box .subtitle-text2 {
   transition: opacity 200ms linear;
 }
 
-.box:hover {
+.home-box:hover {
   background: radial-gradient(
     circle,
     var(--color-twinkle-blue) 0%,
@@ -32,18 +32,18 @@
   transform: scale(1.03);
 }
 
-.box:hover .title-text1 {
+.home-box:hover .title-text1 {
   opacity: 0;
 }
 
-.box:hover .title-text2 {
+.home-box:hover .title-text2 {
   opacity: 1;
 }
 
-.box:hover .subtitle-text1 {
+.home-box:hover .subtitle-text1 {
   opacity: 0;
 }
 
-.box:hover .subtitle-text2 {
+.home-box:hover .subtitle-text2 {
   display: inline;
 }
