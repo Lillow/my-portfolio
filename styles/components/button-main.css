@@ -1,4 +1,4 @@
-.button {
+.button-main {
   font-weight: 500;
   font-size: 24px;
   display: inline-block;
@@ -12,7 +12,7 @@
   transition: all 200ms linear;
 }
 
-.button:hover {
+.button-main:hover {
   background: radial-gradient(
     circle,
     var(--color-light-purple) 30%,
