@@ -9,18 +9,18 @@
   justify-content: space-between;
 }
 
-#skills .title {
+#skills .title-main {
   position: relative;
   bottom: 390px;
 }
 
-#skills .title > .title-text1 {
+#skills .title-main > .text1 {
   font-size: 24px;
   color: var(--color-cultured);
   transition: opacity 400ms linear;
 }
 
-#skills .title > .title-text2 {
+#skills .title-main > .text2 {
   font-size: 36px;
   color: var(--color-cultured);
   transition: opacity 200ms linear;

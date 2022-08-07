@@ -1,4 +1,4 @@
-.title {
+.title-main {
   color: var(--color-gloomy-purple);
   display: flex;
   justify-content: center;
@@ -6,13 +6,13 @@
   margin-bottom: 40px;
 }
 
-.title-text1 {
+.text1 {
   font-family: "Press Start 2P", sans-serif;
   font-size: 30px;
   text-shadow: 3px 3px 0 var(--color-black);
 }
 
-.title-text2 {
+.text2 {
   font-weight: 700;
   font-size: 50px;
   position: absolute;
