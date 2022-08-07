@@ -1,4 +1,4 @@
-#home {
+.home-main {
   box-sizing: border-box;
   background-color: var(--color-russian-violet);
   display: flex;
@@ -10,17 +10,17 @@
   border-bottom: 6px solid var(--color-black);
 }
 
-#home .wrapper {
+.home-main > .wrapper {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
-#home .home-box {
+.home-main > .wrapper > .home-box {
   margin-bottom: 38px;
 }
 
-#home .navigation {
+.home-main > .wrapper > .navigation {
   display: flex;
   justify-content: space-around;
 }
