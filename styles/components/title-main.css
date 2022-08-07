@@ -6,13 +6,13 @@
   margin-bottom: 40px;
 }
 
-.text1 {
+.title-main > .text1 {
   font-family: "Press Start 2P", sans-serif;
   font-size: 30px;
   text-shadow: 3px 3px 0 var(--color-black);
 }
 
-.text2 {
+.title-main > .text2 {
   font-weight: 700;
   font-size: 50px;
   position: absolute;

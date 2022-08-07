@@ -11,13 +11,13 @@
   transition-timing-function: ease-in-out;
 }
 
-.home-box title > .text1,
-.home-box .subtitle-text1 {
+.home-box .title-main > .text1,
+.home-box .subtitle-main > .text1 {
   transition: opacity 400ms linear;
 }
 
-.home-box .text2,
-.home-box .subtitle-text2 {
+.home-box .title-main > .text2,
+.home-box .subtitle-main > .text2 {
   transition: opacity 200ms linear;
 }
 
@@ -40,10 +40,10 @@
   opacity: 1;
 }
 
-.home-box:hover .subtitle-text1 {
+.home-box:hover .subtitle-main > .text1 {
   opacity: 0;
 }
 
-.home-box:hover .subtitle-text2 {
+.home-box:hover .subtitle-main > .text2 {
   display: inline;
 }
