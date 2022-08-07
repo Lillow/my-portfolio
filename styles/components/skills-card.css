@@ -1,4 +1,4 @@
-.card {
+.skills-card {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10,7 +10,7 @@
   transition: all 400ms linear;
 }
 
-.card:hover {
+.skills-card:hover {
   border-radius: 10px;
   border: 1px solid var(--color-cultured);
   background: radial-gradient(
@@ -21,17 +21,17 @@
   );
 }
 
-.card:hover .icon-html-pixel,
-.card:hover .icon-css-pixel,
-.card:hover .icon-js-pixel,
-.card:hover .icon-react-pixel {
+.skills-card:hover .icon-html-pixel,
+.skills-card:hover .icon-css-pixel,
+.skills-card:hover .icon-js-pixel,
+.skills-card:hover .icon-react-pixel {
   opacity: 0;
 }
 
-.card:hover .icon-html,
-.card:hover .icon-css,
-.card:hover .icon-js,
-.card:hover .icon-react {
+.skills-card:hover .icon-html,
+.skills-card:hover .icon-css,
+.skills-card:hover .icon-js,
+.skills-card:hover .icon-react {
   transform: scale(1.2);
   opacity: 1;
 }
