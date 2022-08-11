@@ -1,21 +1,44 @@
 .skills-cards {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-russian-violet);
+  border: 1px solid var(--color-russian-violet);
+  width: 20%;
+  height: 42%;
+  transition: all 400ms linear;
 }
 
-.skills-main > .container:hover + .title-main > .text1 {
+.skills-cards:hover {
+  border-radius: 10px;
+  border: 1px solid var(--color-cultured);
+  background: radial-gradient(
+    circle,
+    var(--color-gloomy-purple) 15%,
+    var(--color-gloomy-purple) 30%,
+    var(--color-russian-violet) 70%
+  );
+}
+
+.skills-cards > .icon1 {
+  max-width: 66px;
+  max-height: 66px;
+  position: absolute;
+  transition: 1.5s all ease;
+}
+
+.skills-cards > .icon2 {
+  max-width: 66.9px;
+  max-height: 66.9px;
+  transition: 2s all ease;
   opacity: 0;
 }
 
-.skills-main > .container:hover + .title-main > .text2 {
-  opacity: 1;
+.skills-cards:hover .icon1 {
+  opacity: 0;
 }
-.skills-cards:hover + .skills-text {
-  border-radius: 10px;
-  background: radial-gradient(
-    circle,
-    var(--color-gloomy-purple) 10%,
-    var(--color-russian-violet) 100%
-  );
+
+.skills-cards:hover .icon2 {
+  transform: scale(1.2);
+  opacity: 1;
 }
