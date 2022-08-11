@@ -1,0 +1,21 @@
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skills-main > .container:hover + .title-main > .text1 {
+  opacity: 0;
+}
+
+.skills-main > .container:hover + .title-main > .text2 {
+  opacity: 1;
+}
+.cards-wrapper:hover + .skills-text {
+  border-radius: 10px;
+  background: radial-gradient(
+    circle,
+    var(--color-gloomy-purple) 10%,
+    var(--color-russian-violet) 100%
+  );
+}
