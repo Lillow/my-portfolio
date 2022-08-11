@@ -1,0 +1,21 @@
+.section-main {
+  padding: 140px 70px 50px;
+  border-bottom: 6px solid var(--color-black);
+}
+
+.section-main .title-main {
+  position: relative;
+  bottom: 390px;
+}
+
+.section-main .title-main > .text1 {
+  font-size: 24px;
+  color: var(--color-cultured);
+  transition: opacity 400ms linear;
+}
+
+.section-main .title-main > .text2 {
+  font-size: 36px;
+  color: var(--color-cultured);
+  transition: opacity 200ms linear;
+}
