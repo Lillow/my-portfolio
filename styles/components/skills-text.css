@@ -5,5 +5,6 @@
   width: 45%;
   height: 305px;
   background-color: var(--color-russian-violet);
+  box-shadow: 10px 10px 0 var(--color-black);
   transition: all 400ms linear;
 }

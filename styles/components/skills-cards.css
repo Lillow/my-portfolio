@@ -4,6 +4,7 @@
   align-items: center;
   background-color: var(--color-russian-violet);
   border: 1px solid var(--color-russian-violet);
+  box-shadow: 10px 10px 0 var(--color-black);
   width: 20%;
   height: 42%;
   transition: all 400ms linear;
@@ -18,6 +19,7 @@
     var(--color-gloomy-purple) 30%,
     var(--color-russian-violet) 70%
   );
+  box-shadow: 10px 10px 2px var(--color-black);
 }
 
 .skills-cards > .icon1 {
