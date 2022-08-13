@@ -1,0 +1,21 @@
+.projects-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-black-coral);
+  box-shadow: 10px 10px 0 var(--color-black);
+  width: 280px;
+  height: 280px;
+  transition: all 400ms linear;
+}
+
+.projects-cards:hover {
+  border-radius: 10px;
+  background: radial-gradient(
+    circle,
+    var(--color-twinkle-blue) 15%,
+    var(--color-twinkle-blue) 30%,
+    var(--color-black-coral) 70%
+  );
+  box-shadow: 10px 10px 2px var(--color-black);
+}
