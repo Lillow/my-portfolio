@@ -1,4 +1,4 @@
-.action-menu {
+.main-action {
   display: inline-flex;
   color: var(--color-twinkle-blue);
   font-weight: 500;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.action-menu::before {
+.main-action::before {
   content: "";
   background-color: var(--color-gloomy-purple);
   width: 10px;
@@ -18,11 +18,11 @@
   transition-timing-function: ease-in-out;
 }
 
-.action-menu:hover {
+.main-action:hover {
   color: inherit;
 }
 
-.action-menu:hover::before {
+.main-action:hover::before {
   background-color: var(--color-light-purple);
   transform: rotate(0.38turn);
   border-radius: 50%;
