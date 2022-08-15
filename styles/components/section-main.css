@@ -3,18 +3,18 @@
   border-bottom: 6px solid var(--color-black);
 }
 
-.section-main .title-main {
+.section-main .main-title {
   position: relative;
   bottom: 390px;
 }
 
-.section-main .title-main > .text1 {
+.section-main .main-title > .text1 {
   font-size: 24px;
   color: var(--color-cultured);
   transition: opacity 400ms linear;
 }
 
-.section-main .title-main > .text2 {
+.section-main .main-title > .text2 {
   font-size: 36px;
   color: var(--color-cultured);
   transition: opacity 200ms linear;

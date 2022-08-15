@@ -13,11 +13,11 @@
   gap: 30px;
 }
 
-.skills-main > .container:hover + .title-main > .text1 {
+.skills-main > .container:hover + .main-title > .text1 {
   opacity: 0;
 }
 
-.skills-main > .container:hover + .title-main > .text2 {
+.skills-main > .container:hover + .main-title > .text2 {
   opacity: 1;
 }
 .skills-main .wrapper:hover + .skills-text {
