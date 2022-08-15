@@ -12,12 +12,12 @@
 }
 
 .main-box .title-main > .text1,
-.main-box .subtitle-main > .text1 {
+.main-box .main-subtitle > .text1 {
   transition: opacity 400ms linear;
 }
 
 .main-box .title-main > .text2,
-.main-box .subtitle-main > .text2 {
+.main-box .main-subtitle > .text2 {
   transition: opacity 200ms linear;
 }
 
@@ -40,10 +40,10 @@
   opacity: 1;
 }
 
-.main-box:hover .subtitle-main > .text1 {
+.main-box:hover .main-subtitle > .text1 {
   opacity: 0;
 }
 
-.main-box:hover .subtitle-main > .text2 {
+.main-box:hover .main-subtitle > .text2 {
   display: inline;
 }
