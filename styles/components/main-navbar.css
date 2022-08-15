@@ -1,4 +1,4 @@
-.nav-bar {
+.main-navbar {
   display: flex;
   justify-content: space-between;
   background-color: #778ca351;
@@ -9,7 +9,7 @@
   position: fixed;
 }
 
-.nav-bar > .navigation > .menu > .item {
+.main-navbar > .navigation > .menu > .item {
   display: inline;
   margin-right: 48px;
 }
