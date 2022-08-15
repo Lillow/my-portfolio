@@ -1,4 +1,4 @@
-.logo-lillow {
+.main-logo {
   font-weight: 700;
   font-size: 40px;
   color: inherit;
@@ -6,26 +6,26 @@
   transition: all 300ms linear;
 }
 
-.logo-lillow .character {
+.main-logo .character {
   color: var(--color-gloomy-purple);
   transition: all 300ms ease-in-out;
 }
 
-.logo-lillow > .logo::before {
+.main-logo > .logo::before {
   content: "<";
 }
 
-.logo-lillow > .logo::after {
+.main-logo > .logo::after {
   content: ">";
 }
 
-.logo-lillow:hover {
+.main-logo:hover {
   transform: scale(1.08);
   text-shadow: 5px 5px 2px var(--color-black);
 }
 
-.logo-lillow:hover > .logo > .character,
-.logo-lillow > .logo::before,
-.logo-lillow > .logo::after {
+.main-logo:hover > .logo > .character,
+.main-logo > .logo::before,
+.main-logo > .logo::after {
   color: var(--color-light-purple);
 }
