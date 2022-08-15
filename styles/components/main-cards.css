@@ -1,16 +1,37 @@
-.skills-cards {
+.main-cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  transition: all 400ms linear;
+}
+
+.-grey {
+  background-color: var(--color-black-coral);
+  box-shadow: 10px 10px 0 var(--color-cultured);
+  width: 280px;
+  height: 280px;
+}
+
+.-grey:hover {
+  border-radius: 10px;
+  background: radial-gradient(
+    circle,
+    var(--color-twinkle-blue) 15%,
+    var(--color-twinkle-blue) 30%,
+    var(--color-black-coral) 70%
+  );
+  box-shadow: 10px 10px 2px var(--color-cultured);
+}
+
+.-purple {
   background-color: var(--color-russian-violet);
   border: 1px solid var(--color-russian-violet);
   box-shadow: 10px 10px 0 var(--color-black);
   width: 20%;
   height: 42%;
-  transition: all 400ms linear;
 }
 
-.skills-cards:hover {
+.-purple:hover {
   border-radius: 10px;
   border: 1px solid var(--color-cultured);
   background: radial-gradient(
@@ -22,25 +43,25 @@
   box-shadow: 10px 10px 2px var(--color-black);
 }
 
-.skills-cards > .icon1 {
+.-purple > .icon1 {
   max-width: 66px;
   max-height: 66px;
   position: absolute;
   transition: 1.5s all ease;
 }
 
-.skills-cards > .icon2 {
+.-purple > .icon2 {
   max-width: 66.9px;
   max-height: 66.9px;
   transition: 2s all ease;
   opacity: 0;
 }
 
-.skills-cards:hover .icon1 {
+.-purple:hover .icon1 {
   opacity: 0;
 }
 
-.skills-cards:hover .icon2 {
+.-purple:hover .icon2 {
   transform: scale(1.2);
   opacity: 1;
 }
