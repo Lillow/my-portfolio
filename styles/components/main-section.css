@@ -19,3 +19,11 @@
   color: var(--color-cultured);
   transition: opacity 200ms linear;
 }
+
+.main-section.-grey {
+  background-color: var(--color-black-coral);
+}
+
+.main-section.-purple {
+  background-color: var(--color-russian-violet);
+}
