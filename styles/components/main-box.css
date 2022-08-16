@@ -1,7 +1,4 @@
 .main-box {
-  text-align: center;
-  background-color: var(--color-black-coral);
-  display: inline-block;
   padding: 42px 18px;
   box-sizing: border-box;
   box-shadow: 10px 10px 0 var(--color-black);
@@ -11,39 +8,54 @@
   transition-timing-function: ease-in-out;
 }
 
-.main-box .main-title > .text1,
-.main-box .main-subtitle > .text1 {
+.main-box.-grey {
+  text-align: center;
+  background-color: var(--color-black-coral);
+  display: inline-block;
+}
+
+.main-box.-grey .main-title > .text1,
+.main-box.-grey .main-subtitle > .text1 {
   transition: opacity 400ms linear;
 }
 
-.main-box .main-title > .text2,
-.main-box .main-subtitle > .text2 {
+.main-box.-grey .main-title > .text2,
+.main-box.-grey .main-subtitle > .text2 {
   transition: opacity 200ms linear;
 }
 
-.main-box:hover {
+.main-box.-grey:hover {
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px var(--color-black);
   background: radial-gradient(
     circle,
     var(--color-twinkle-blue) 0%,
     var(--color-black-coral) 100%
   );
-  border-radius: 10px;
-  box-shadow: 10px 10px 2px var(--color-black);
   transform: scale(1.03);
 }
 
-.main-box:hover .main-title > .text1 {
+.main-box.-grey:hover .main-title > .text1 {
   opacity: 0;
 }
 
-.main-box:hover .main-title > .text2 {
+.main-box.-grey:hover .main-title > .text2 {
   opacity: 1;
 }
 
-.main-box:hover .main-subtitle > .text1 {
+.main-box.-grey:hover .main-subtitle > .text1 {
   opacity: 0;
 }
 
-.main-box:hover .main-subtitle > .text2 {
+.main-box.-grey:hover .main-subtitle > .text2 {
   display: inline;
+}
+
+.main-box.-purple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 305px;
+  background-color: var(--color-russian-violet);
 }

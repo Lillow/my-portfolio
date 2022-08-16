@@ -20,7 +20,7 @@
 .skills-main > .container:hover + .main-title > .text2 {
   opacity: 1;
 }
-.skills-main .wrapper:hover + .skills-text {
+.skills-main .wrapper:hover + .main-box.-purple {
   border-radius: 10px;
   background: radial-gradient(
     circle,
