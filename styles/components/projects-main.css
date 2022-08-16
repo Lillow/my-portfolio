@@ -2,10 +2,6 @@
   background-color: var(--color-russian-violet);
 }
 
-.projects-main .wrapper {
-  display: flex;
-}
-
 .projects-main > .container > .more {
   text-align: center;
 }

@@ -9,18 +9,3 @@
   height: 800px;
   border-bottom: 6px solid var(--color-black);
 }
-
-.main-banner > .wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.main-banner > .wrapper > .main-box {
-  margin-bottom: 38px;
-}
-
-.main-banner > .wrapper > .navigation {
-  display: flex;
-  justify-content: space-around;
-}

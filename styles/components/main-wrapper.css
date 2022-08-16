@@ -1,0 +1,34 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.main-wrapper > .main-box {
+  margin-bottom: 38px;
+}
+
+.main-wrapper > .navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-wrapper.-grey {
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.main-wrapper.-grey:hover + .main-box.-purple {
+  border-radius: 10px;
+  background: radial-gradient(
+    circle,
+    var(--color-gloomy-purple) 10%,
+    var(--color-russian-violet) 100%
+  );
+  box-shadow: 10px 10px 2px var(--color-black);
+}
+
+.main-wrapper.-purple {
+  flex-direction: row;
+}
