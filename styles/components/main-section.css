@@ -3,23 +3,6 @@
   border-bottom: 6px solid var(--color-black);
 }
 
-.main-section .main-title {
-  position: relative;
-  bottom: 390px;
-}
-
-.main-section .main-title > .text1 {
-  font-size: 24px;
-  color: var(--color-cultured);
-  transition: opacity 400ms linear;
-}
-
-.main-section .main-title > .text2 {
-  font-size: 36px;
-  color: var(--color-cultured);
-  transition: opacity 200ms linear;
-}
-
 .main-section.-grey {
   background-color: var(--color-black-coral);
 }

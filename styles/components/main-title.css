@@ -19,3 +19,20 @@
   opacity: 0;
   text-shadow: 3px 3px 2px var(--color-black);
 }
+
+.main-title.-second {
+  position: relative;
+  bottom: 390px;
+}
+
+.main-title.-second > .text1 {
+  font-size: 24px;
+  color: var(--color-cultured);
+  transition: opacity 400ms linear;
+}
+
+.main-title.-second > .text2 {
+  font-size: 36px;
+  color: var(--color-cultured);
+  transition: opacity 200ms linear;
+}

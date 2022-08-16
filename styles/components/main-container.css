@@ -3,10 +3,10 @@
   justify-content: space-between;
 }
 
-.main-container:hover + .main-title > .text1 {
+.main-container:hover + .main-title.-second > .text1 {
   opacity: 0;
 }
 
-.main-container:hover + .main-title > .text2 {
+.main-container:hover + .main-title.-second > .text2 {
   opacity: 1;
 }
