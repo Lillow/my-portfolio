@@ -1,15 +1,3 @@
 .projects-main {
   background-color: var(--color-russian-violet);
 }
-
-.projects-main > .container > .more {
-  text-align: center;
-}
-
-.projects-main > .container:hover + .main-title > .text1 {
-  opacity: 0;
-}
-
-.projects-main > .container:hover + .main-title > .text2 {
-  opacity: 1;
-}

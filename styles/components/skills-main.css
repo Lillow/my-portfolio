@@ -1,16 +1,3 @@
 .skills-main {
   background-color: var(--color-black-coral);
 }
-
-.skills-main > .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skills-main > .container:hover + .main-title > .text1 {
-  opacity: 0;
-}
-
-.skills-main > .container:hover + .main-title > .text2 {
-  opacity: 1;
-}
