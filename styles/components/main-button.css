@@ -22,3 +22,33 @@
   box-shadow: 5px 5px 2px var(--color-black);
   transform: scale(1.08);
 }
+
+.main-button.-arrow {
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.main-button.-arrow > .content {
+  display: none;
+}
+
+.main-button.-arrow::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border: 15px solid transparent;
+  border-top: 28px solid var(--color-cultured);
+  transform: translateY(-3px);
+}
+
+.main-button.-arrow.-left::before {
+  transform: rotate(90deg) translateX(0px) translateY(13px);
+}
+
+.main-button.-arrow.-right::before {
+  transform: rotate(-90deg) translateX(0px) translateY(3px);
+}

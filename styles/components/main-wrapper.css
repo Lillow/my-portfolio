@@ -18,6 +18,10 @@
   flex-direction: row;
 }
 
+.main-wrapper.-grey.-second {
+  justify-content: center;
+}
+
 .main-wrapper.-grey:hover + .main-box.-purple {
   border-radius: 10px;
   background: radial-gradient(
