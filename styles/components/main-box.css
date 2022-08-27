@@ -52,10 +52,16 @@
 }
 
 .main-box.-purple {
+  line-height: 1.8;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 45%;
   height: 305px;
   background-color: var(--color-russian-violet);
+}
+
+.main-box.-purple.-second {
+  width: 100%;
+  height: 226px;
 }

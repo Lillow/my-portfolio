@@ -34,6 +34,7 @@ section {
 body {
   line-height: 1;
   font-family: "Raleway", sans-serif;
+  font-weight: 500;
   color: var(--color-cultured);
 }
 ul {
