@@ -65,3 +65,32 @@
   transform: scale(1.2);
   opacity: 1;
 }
+
+.main-cards.-node {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0 27.7px;
+}
+
+.main-cards.-node::before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 40px;
+  box-sizing: border-box;
+  border: 2.5px dashed var(--color-black);
+  transform: rotate(90deg) translateX(120%);
+}
+
+.main-cards.-node .title {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 18px;
+  color: var(--color-gloomy-purple);
+  margin-bottom: 50px;
+}
+
+.main-cards.-node .logo {
+  height: 80px;
+  width: 80px;
+}
