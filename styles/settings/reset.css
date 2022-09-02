@@ -15,7 +15,8 @@ footer,
 header,
 menu,
 nav,
-section {
+section,
+figure {
   margin: 0;
   padding: 0;
   border: 0;
