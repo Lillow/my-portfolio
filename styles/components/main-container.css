@@ -1,6 +1,6 @@
 .main-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .main-container:hover + .main-title.-second > .text1 {
@@ -9,4 +9,8 @@
 
 .main-container:hover + .main-title.-second > .text2 {
   opacity: 1;
+}
+
+.main-container.-grey {
+  flex-direction: column-reverse;
 }

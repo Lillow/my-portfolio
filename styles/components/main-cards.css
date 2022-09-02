@@ -10,6 +10,7 @@
   box-shadow: 10px 10px 0 var(--color-cultured);
   width: 280px;
   height: 280px;
+  margin: 0 40px;
 }
 
 .main-cards.-grey:hover {
