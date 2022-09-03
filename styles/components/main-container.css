@@ -14,3 +14,8 @@
 .main-container.-grey {
   flex-direction: column-reverse;
 }
+
+.main-container.-purple {
+  flex-direction: column;
+  align-items: center;
+}

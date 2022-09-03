@@ -27,3 +27,12 @@
   transform: rotate(0.38turn);
   border-radius: 50%;
 }
+
+.main-action.-second {
+  margin-top: 90px;
+  font-size: 18px;
+}
+
+.main-action.-second::before {
+  display: none;
+}
