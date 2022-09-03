@@ -12,3 +12,7 @@
 .main-section.-purple {
   background-color: var(--color-russian-violet);
 }
+
+.main-section.-grey.-second {
+  padding: 60px 0 100px;
+}

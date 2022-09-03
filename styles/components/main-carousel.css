@@ -1,6 +1,17 @@
 .main-carousel {
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
+}
+
+.main-carousel::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 25px;
+  height: 5px;
+  width: 100%;
+  background-color: var(--color-black);
 }
