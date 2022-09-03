@@ -1,0 +1,6 @@
+.main-text {
+  display: flex;
+  justify-content: center;
+  line-height: 2.1;
+  padding: 0 50px;
+}
