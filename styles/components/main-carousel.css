@@ -1,7 +1,7 @@
 .main-carousel {
   display: flex;
   position: relative;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 60px;
 }
@@ -22,5 +22,5 @@
   position: absolute;
   top: 25px;
   border: 2.5px dashed var(--color-black);
-  width: 100%;
+  width: 99.8%;
 }

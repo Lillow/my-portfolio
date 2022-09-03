@@ -30,14 +30,6 @@
   cursor: pointer;
 }
 
-.main-button.-arrow.-left {
-  transform: translateX(-104px);
-}
-
-.main-button.-arrow.-right {
-  transform: translateX(104px);
-}
-
 .main-button.-arrow > .content {
   display: none;
 }
@@ -54,9 +46,9 @@
 }
 
 .main-button.-arrow.-left::before {
-  transform: rotate(90deg) translateX(0px) translateY(13px);
+  transform: rotate(90deg) translateY(13px);
 }
 
 .main-button.-arrow.-right::before {
-  transform: rotate(-90deg) translateX(0px) translateY(3px);
+  transform: rotate(-90deg) translateY(3px);
 }
