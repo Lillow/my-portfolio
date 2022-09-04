@@ -1,6 +1,20 @@
 .main-text {
-  display: flex;
-  justify-content: center;
+  text-align: justify;
   line-height: 2.1;
-  padding: 0 50px;
+  padding: 0 180px;
+}
+
+.main-text .emphasis {
+  color: var(--color-russian-violet);
+  font-weight: bold;
+}
+
+.main-text .emphasis.-generation {
+  color: var(--color-portland-orange);
+}
+
+.main-text .emphasis.-second {
+  font-size: 18px;
+  line-height: 2.4;
+  color: var(--color-russian-violet);
 }
