@@ -27,9 +27,11 @@
 .main-title.-second > .text1 {
   font-size: 24px;
   transition: opacity 400ms linear;
+  text-shadow: none;
 }
 
 .main-title.-second > .text2 {
   font-size: 36px;
   transition: opacity 200ms linear;
+  text-shadow: none;
 }
