@@ -11,7 +11,7 @@
   display: block;
   position: absolute;
   top: 25px;
-  height: 3.6px;
+  height: 4px;
   width: calc(100% - 100px);
   background-color: var(--color-black);
 }
