@@ -7,10 +7,11 @@
   --color-cultured: #f3f5f7;
   --color-black: #000;
 
+  --color-portland-orange: #f16338;
   --color-orange-mix-gradient: linear-gradient(
     90deg,
     #f14d5c 20%,
-    #f16338 50%,
+    var(--color-portland-orange) 50%,
     #f1b138 90%
   );
 }
