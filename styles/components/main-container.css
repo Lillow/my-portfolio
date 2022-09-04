@@ -12,7 +12,7 @@
 }
 
 .main-container.-grey {
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .main-container.-purple {
