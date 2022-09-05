@@ -14,5 +14,6 @@
 }
 
 .main-section.-grey.-second {
-  padding: 60px 0 100px;
+  position: relative;
+  padding: 60px 0 300px;
 }
