@@ -27,7 +27,8 @@ generation.addEventListener("mouseover", function changeText() {
 });
 
 estacio.addEventListener("mouseover", function changeText() {
-  text1.innerHTML = "Estácio";
+  text1.innerHTML =
+    "<span class= 'emphasis -estacio'>*ATUALMENTE*</span></br>Em 2022 iniciou os estudos em <span class= 'emphasis -estacio'>Análise e Desenvolvimento de Sistemas</span> na faculdade <span class= 'emphasis -estacio'>Estácio Do Recife</span>-PE.</br></br></br></br></br></br>";
 });
 
 let quitBox = document.getElementsByClassName("quitBox");
