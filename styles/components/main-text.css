@@ -19,20 +19,24 @@
   font-weight: bold;
 }
 
-.main-text .emphasis.-generation {
-  color: var(--color-portland-orange);
-}
-
-.main-text .emphasis.-estacio {
-  color: var(--color-absolute-zero);
-}
-
 .main-text .emphasis.-second {
   font-size: 21px;
   line-height: 2.4;
   color: var(--color-russian-violet);
 }
 
-.main-text .emphasis.-second.-title {
-  color: var(--color-twinkle-blue);
+.main-text .emphasis.-orange {
+  color: var(--color-portland-orange);
+}
+
+.main-text .emphasis.-blue {
+  color: var(--color-absolute-zero);
+}
+
+.main-text .emphasis.-blue1 {
+  color: var(--color-sky-blue);
+}
+
+.main-text .emphasis.-yellow {
+  color: var(--color-yellow-munsell);
 }
