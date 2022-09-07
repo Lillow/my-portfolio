@@ -23,6 +23,7 @@
   animation: blink 1s infinite;
   color: var(--color-gloomy-purple);
 }
+
 @-webkit-keyframes blink {
   0%,
   100% {
