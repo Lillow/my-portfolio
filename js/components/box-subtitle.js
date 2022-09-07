@@ -7,7 +7,7 @@ function typeWrite(element) {
   textArray.forEach(function (letter, i) {
     setTimeout(function () {
       element.innerHTML += letter;
-    }, 100 * i);
+    }, 200 * i);
   });
 }
 

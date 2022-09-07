@@ -16,3 +16,19 @@
   display: none;
   font-size: 38px;
 }
+
+.main-subtitle > .text2::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 1s infinite;
+  color: var(--color-gloomy-purple);
+}
+@-webkit-keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
