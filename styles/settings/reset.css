@@ -44,3 +44,22 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Global */
+
+::selection {
+  background-color: var(--color-gloomy-purple);
+  color: var(--color-cultured);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-gloomy-purple);
+}
