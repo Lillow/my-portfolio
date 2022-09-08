@@ -83,7 +83,7 @@
   height: 0px;
   width: 40px;
   box-sizing: border-box;
-  border: 2.5px dashed var(--color-black);
+  border: 2px dashed var(--color-black);
   transform: rotate(90deg) translateX(120%);
 }
 
