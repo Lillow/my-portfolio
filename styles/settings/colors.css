@@ -11,11 +11,5 @@
   --color-absolute-zero: #144bc9;
   --color-yellow-munsell: #e5c71e;
   --color-sky-blue: #61dafb;
-
-  --color-orange-mix-gradient: linear-gradient(
-    90deg,
-    #f14d5c 20%,
-    var(--color-portland-orange) 50%,
-    var(--color-yellow-munsell) 90%
-  );
+  --color-sizzling-red: #f14d5c;
 }
