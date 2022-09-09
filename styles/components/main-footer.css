@@ -26,8 +26,18 @@
   stroke-width: 1.5px;
 }
 
-.main-footer > .social > .link:hover .svg {
+.main-footer > .social > .link.-linkedin:hover .svg.-linkedin {
+  stroke: var(--color-absolute-zero);
+  stroke-width: 2px;
+}
+
+.main-footer > .social > .link.-github:hover .svg.-github {
   stroke: var(--color-cultured);
+  stroke-width: 2px;
+}
+
+.main-footer > .social > .link.-instagram:hover .svg.-instagram {
+  stroke: var(--color-sizzling-red);
   stroke-width: 2px;
 }
 
