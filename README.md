@@ -12,13 +12,12 @@
 
 ## 📚 Seções
 
-O site é composto por 5 seções diferentes:
+O site é composto por 4 seções diferentes:
 
--   **Home:** Breve apresentação;
+-   **Início:** Breve apresentação;
 -   **Sobre:** Descrição falando um pouco sobre mim;
 -   **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
--   **Serviços:** Exibe através de cards as diferentes experiências educacionais e profissionais que possuo;
--   **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens e tecnologias;
+-   **Skills:** Conhecimentos nas linguagens e tecnologias;
 
 ---
 
