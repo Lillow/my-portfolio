@@ -114,7 +114,12 @@
 
 .main-cards.-node > .box.-generation {
   padding: 10px 30px;
-  background: var(--color-orange-mix-gradient);
+  background: linear-gradient(
+    90deg,
+    var(--color-sizzling-red) 20%,
+    var(--color-portland-orange) 50%,
+    var(--color-yellow-munsell) 90%
+  );
 }
 
 .main-cards.-node .box .logo.-generation {
