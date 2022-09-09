@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: var(--color-cultured);
+}
+
+::selection {
+  background-color: var(--color-gloomy-purple);
+  color: var(--color-cultured);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-gloomy-purple);
+}
