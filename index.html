@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="./styles/components/main-carousel.css" />
     <link rel="stylesheet" href="./styles/components/main-text.css" />
     <link rel="stylesheet" href="./styles/components/main-footer.css" />
+    <link rel="stylesheet" href="./styles/components/main-modal.css" />
     <link rel="stylesheet" href="./styles/settings/colors.css" />
     <link rel="shortcut icon" href="./assets/images/favicon.png" />
     <title>Portfólio | Danillo Silva - Full-Stack developer junior</title>
@@ -69,7 +70,7 @@
             <a class="main-action" href="#skills" lang="en">Skills</a>
           </li>
           <li class="item">
-            <a class="main-button" href="">Contatos</a>
+            <label class="main-button" for="contact">Contato</label>
           </li>
         </ul>
       </nav>
@@ -412,6 +413,16 @@
         </div>
       </section>
       <!-- /Skills -->
+
+      <!--Contact-->
+      <input class="state" id="contact" type="checkbox" />
+      <div class="main-modal">
+        <label class="bg" for="contact"></label>
+        <div class="inner">
+          <label class="close" for="contact"></label>
+        </div>
+      </div>
+      <!--/Contact-->
 
       <!-- Footer -->
       <footer class="main-footer">

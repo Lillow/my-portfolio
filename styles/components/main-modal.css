@@ -1,0 +1,90 @@
+.main-modal {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  --color-black: #000000c0;
+  background: var(--color-black);
+  transition: opacity 0.25s ease;
+}
+
+.main-modal > .bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.state {
+  display: none;
+}
+
+.state:checked + .main-modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.state:checked + .main-modal .main-modal > .inner {
+  top: 0;
+}
+
+.main-modal > .inner {
+  transition: top 0.25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1em 2em;
+  height: 50%;
+}
+
+.main-modal > .inner > .close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+}
+
+.main-modal > .inner > .close:after,
+.main-modal > .inner > .close:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.main-modal > .inner > .close:hover:after,
+.main-modal > .inner > .close:hover:before {
+  background: #aaa;
+}
+
+.main-modal > .inner > .close:before {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .main-modal > .inner {
+    width: 90%;
+    height: 90%;
+    box-sizing: border-box;
+  }
+}
