@@ -24,7 +24,6 @@
 }
 
 .main-cards.-purple {
-  cursor: pointer;
   background-color: var(--color-russian-violet);
   border: 1px solid var(--color-russian-violet);
   box-shadow: 10px 10px 0 var(--color-black);
