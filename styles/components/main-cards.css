@@ -48,6 +48,7 @@
   max-height: 66px;
   position: absolute;
   transition: 1.5s all ease;
+  opacity: 1;
 }
 
 .main-cards.-purple > .icon2 {
@@ -57,16 +58,65 @@
   opacity: 0;
 }
 
+.main-cards.-purple.-html > .icon2 .stroke,
+.main-cards.-purple.-css > .icon2 .stroke {
+  stroke: var(--color-black);
+  stroke-width: 18;
+}
+
+.main-cards.-purple.-html > .icon2 .path1 {
+  fill: var(--color-portland-orange);
+}
+
+.main-cards.-purple.-html > .icon2 .path2 {
+  fill: var(--color-Mango-tango);
+}
+
+.main-cards.-purple.-css > .icon2 .path1 {
+  fill: var(--color-absolute-zero);
+}
+
+.main-cards.-purple.-css > .icon2 .path2 {
+  fill: #336aeb;
+}
+
+.main-cards.-purple.-html > .icon2 .path3,
+.main-cards.-purple.-css > .icon2 .path3 {
+  fill: var(--color-white);
+}
+
+.main-cards.-purple.-html > .icon2 .path4,
+.main-cards.-purple.-css > .icon2 .path4 {
+  fill: var(--color-cultured);
+}
+
+.main-cards.-purple.-js > .icon2 .path1 {
+  fill: var(--color-yellow-munsell);
+}
+
+.main-cards.-purple.-js > .icon2 .path2 {
+  stroke-width: 20;
+  stroke: var(--color-black);
+}
+
+.main-cards.-purple.-react > .icon2 .path1 {
+  fill: var(--color-sky-blue);
+}
+
+.main-cards.-purple.-react > .icon2 .path2 {
+  fill: var(--color-black);
+}
+
 .main-cards.-purple.-java > .icon2 {
   max-width: 90px;
   max-height: 80px;
 }
 
-.main-cards.-purple.-java > .icon2 .color1 {
+.main-cards.-purple.-java > .icon2 .path1 {
   fill: var(--color-red-pigment);
 }
 
-.main-cards.-purple.-java > .icon2 .color2 {
+.main-cards.-purple.-java > .icon2 .path2 {
   fill: var(--color-absolute-zero);
 }
 
