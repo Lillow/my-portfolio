@@ -40,3 +40,7 @@
 .main-text .emphasis.-yellow {
   color: var(--color-yellow-munsell);
 }
+
+.main-text .emphasis.-red {
+  color: var(--color-red-pigment);
+}

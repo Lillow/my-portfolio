@@ -57,12 +57,25 @@
   opacity: 0;
 }
 
+.main-cards.-purple.-java > .icon2 {
+  max-width: 90px;
+  max-height: 80px;
+}
+
+.main-cards.-purple.-java > .icon2 .color1 {
+  fill: var(--color-red-pigment);
+}
+
+.main-cards.-purple.-java > .icon2 .color2 {
+  fill: var(--color-absolute-zero);
+}
+
 .main-cards.-purple:hover .icon1 {
   opacity: 0;
 }
 
 .main-cards.-purple:hover .icon2 {
-  transform: scale(1.2);
+  transform: scale(1.3);
   opacity: 1;
 }
 

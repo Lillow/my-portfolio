@@ -3,6 +3,7 @@ const html = document.querySelector(".main-cards.-purple.-html");
 const css = document.querySelector(".main-cards.-purple.-css");
 const js = document.querySelector(".main-cards.-purple.-js");
 const react = document.querySelector(".main-cards.-purple.-react");
+const java = document.querySelector(".main-cards.-purple.-java");
 let text2 = document.querySelector(".main-text.-second");
 
 html.addEventListener("mouseover", function changeText() {
@@ -23,6 +24,11 @@ js.addEventListener("mouseover", function changeText() {
 react.addEventListener("mouseover", function changeText() {
   text2.innerHTML =
     "<span class= 'emphasis -blue1 -second'>React</span> <br> É uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário (front-end) em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.";
+});
+
+java.addEventListener("mouseover", function changeText() {
+  text2.innerHTML =
+    '<span class= "emphasis -red -second">Java</span> <br> É uma linguagem de programação orientada a objetos e portável independente de plataforma, ou seja, "escreva uma vez, execute em qualquer lugar".';
 });
 
 let quitCard = document.getElementsByClassName("quitCard");
