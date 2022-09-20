@@ -15,6 +15,7 @@
   position: absolute;
   display: none;
   font-size: 38px;
+  cursor: pointer;
 }
 
 .main-subtitle > .text2::after {
