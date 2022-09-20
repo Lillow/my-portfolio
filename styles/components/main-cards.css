@@ -77,7 +77,7 @@
 }
 
 .main-cards.-purple.-css > .icon2 .path2 {
-  fill: #336aeb;
+  fill: var(--color-bluetiful);
 }
 
 .main-cards.-purple.-html > .icon2 .path3,
