@@ -6,12 +6,12 @@ const elements = document.querySelector(
 );
 let count = 0;
 
-btnRight.addEventListener("click", function () {
+btnRight.addEventListener("click", () => {
   count -= 100;
   elements.style = `transform: translateX(${count}px)`;
 });
 
-btnLeft.addEventListener("click", function () {
+btnLeft.addEventListener("click", () => {
   count += 100;
   elements.style = `transform: translateX(${count}px)`;
 });
