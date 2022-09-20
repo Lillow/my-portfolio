@@ -11,4 +11,6 @@ function typeWrite(element) {
   });
 }
 
-typeWrite(subtitle);
+box.addEventListener("click", function () {
+  typeWrite(subtitle);
+});
