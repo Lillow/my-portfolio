@@ -1,4 +1,5 @@
 const subtitle = document.querySelector(".main-subtitle > .text2");
+const box = document.querySelector(".main-box.-grey");
 
 function typeWrite(element) {
   const textArray = element.innerHTML.split("");
@@ -8,6 +9,7 @@ function typeWrite(element) {
   });
 }
 
-subtitle.addEventListener("click", () => {
+box.addEventListener("click", () => {
+  subtitle.innerHTML = "FullStack Developer Jr.";
   typeWrite(subtitle);
 });
