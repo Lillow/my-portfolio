@@ -16,7 +16,9 @@ header,
 menu,
 nav,
 section,
-figure {
+figure,
+label,
+input {
   margin: 0;
   padding: 0;
   border: 0;
