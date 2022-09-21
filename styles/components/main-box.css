@@ -74,6 +74,7 @@
   overflow: auto;
   padding: 1em 2em;
   cursor: default;
+  padding-top: 3rem;
 }
 
 .main-box.-grey.-inner:hover {
