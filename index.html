@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="./styles/components/main-text.css" />
     <link rel="stylesheet" href="./styles/components/main-footer.css" />
     <link rel="stylesheet" href="./styles/components/main-modal.css" />
+    <link rel="stylesheet" href="./styles/components/main-form.css" />
     <link rel="stylesheet" href="./styles/settings/colors.css" />
     <link rel="shortcut icon" href="./assets/images/favicon.png" />
     <title>Portfólio | Danillo Silva - Full-Stack developer junior</title>
@@ -669,14 +670,18 @@
         <label class="bg" for="contact"></label>
         <div class="main-box -grey -inner">
           <label class="close" for="contact"></label>
-          <form>
-            <label for="nome">Nome</label>
+          <div class="main-title -second">
+            <h2 class="text1">Contato</h2>
+            <h2 class="text2">Contato</h2>
+          </div>
+          <form class="main-form">
+            <label class="label" for="nome">Nome</label>
             <input id="nome" type="text" />
 
-            <label for="email">Email</label>
+            <label class="label" for="email">Email</label>
             <input id="email" type="email" />
 
-            <label for="mssage">Mensagem</label>
+            <label class="label" for="mssage">Mensagem</label>
             <textarea id="message">Digite a mensagem aqui</textarea>
 
             <button type="submit">Enviar</button>
