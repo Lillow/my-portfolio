@@ -63,3 +63,13 @@
 .main-button.-arrow.-right::before {
   transform: rotate(-90deg) translateY(3px);
 }
+
+.main-button.-second {
+  margin-top: 15px;
+}
+
+.main-button.-second:hover {
+  border-radius: 0;
+  box-shadow: 5px 5px 0px var(--color-black);
+  transform: scale(1);
+}
