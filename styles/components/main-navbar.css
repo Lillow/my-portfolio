@@ -13,3 +13,9 @@
   display: inline;
   margin-right: 48px;
 }
+
+@media screen and (max-width: 1000px) {
+  .main-navbar > .navigation {
+    display: none;
+  }
+}

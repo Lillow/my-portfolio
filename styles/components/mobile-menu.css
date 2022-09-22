@@ -1,0 +1,30 @@
+.mobile-menu {
+  display: none;
+  margin-right: 30px;
+}
+
+.mobile-menu > .line {
+  width: 32px;
+  height: 3px;
+  background-color: var(--color-twinkle-blue);
+  margin: 8px;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 1000px) {
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.mobile-menu.active .line.-one {
+  transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.mobile-menu.active .line.-two {
+  opacity: 0;
+}
+
+.mobile-menu.active .line.-three {
+  transform: rotate(45deg) translate(-7px, -5px);
+}
