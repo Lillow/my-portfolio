@@ -2,9 +2,13 @@
   text-align: justify;
   line-height: 2.1;
   padding: 0 180px;
-  position: absolute;
+  position: relative;
   bottom: 10%;
   font-size: 18px;
+}
+
+.main-text > .content {
+  position: absolute;
 }
 
 .main-text.-second {
