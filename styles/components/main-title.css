@@ -20,7 +20,7 @@
   text-shadow: 3px 3px 2px var(--color-black);
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 1157px) {
   .main-title > .text1 {
     font-size: 1.6rem;
   }
