@@ -8,13 +8,13 @@
 
 .main-subtitle > .text1 {
   font-family: "Press Start 2P", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .main-subtitle > .text2 {
   position: absolute;
   display: none;
-  font-size: 38px;
+  font-size: 2.5rem;
 }
 
 .main-subtitle > .text2::after {
@@ -31,5 +31,35 @@
   }
   50% {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .main-subtitle > .text1 {
+    font-size: 1.3rem;
+  }
+
+  .main-subtitle > .text2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .main-subtitle > .text1 {
+    font-size: 1rem;
+  }
+
+  .main-subtitle > .text2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .main-subtitle > .text1 {
+    font-size: 0.7rem;
+  }
+
+  .main-subtitle > .text2 {
+    font-size: 1.4rem;
   }
 }

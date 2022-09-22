@@ -12,6 +12,12 @@
   justify-content: space-around;
 }
 
+@media screen and (max-width: 800px) {
+  .main-wrapper {
+    margin-top: 6vh;
+  }
+}
+
 .main-wrapper.-grey {
   flex-wrap: wrap;
   gap: 30px;
