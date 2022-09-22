@@ -1,28 +1,21 @@
 .nav-list {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 8vh;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  --color-black-coral: #778ca3f0;
+  background-color: var(--color-black-coral);
+
+  transform: translateY(-200%);
+  transition: transform 400ms linear;
 }
 
 .nav-list.active {
-  visibility: initial;
-  transition: 4s display ease;
-}
-
-@media screen and (max-width: 1000px) {
-  body {
-    overflow-x: hidden;
-  }
-  .nav-list {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 998;
-    background-color: var(--color-black-coral);
-    visibility: hidden;
-  }
+  transform: translateX(0);
 }

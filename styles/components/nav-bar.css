@@ -1,11 +1,12 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  background-color: #778ca351;
-  border-bottom: 3px solid #4b658451;
+  --color-black-coral: #778ca370;
+  background-color: var(--color-black-coral);
+  border-bottom: 3px solid #778ca3a0;
   width: 100%;
   padding: 10px 20px;
-  z-index: 998;
+  z-index: 999;
   position: fixed;
 }
 

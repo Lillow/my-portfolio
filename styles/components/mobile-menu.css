@@ -1,6 +1,7 @@
 .mobile-menu {
   display: none;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .mobile-menu > .line {
