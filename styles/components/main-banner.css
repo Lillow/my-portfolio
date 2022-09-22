@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1157px) {
   .main-banner {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 15% 0;
     height: 140vh;
   }
