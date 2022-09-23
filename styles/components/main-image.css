@@ -3,17 +3,18 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  transition: 1s all linear;
+  max-width: 595px;
+
+  transition: transform 1s linear;
 }
 
 .main-image:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .main-image .lillow {
-  max-width: 595px;
-  width: auto;
-  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .main-image::after {
@@ -26,7 +27,7 @@
   position: absolute;
   top: 61.91%;
   left: 37.25%;
-  transition: all 600ms ease-in;
+  transition: 600ms box-shadow ease-in;
 }
 
 .main-image:hover::after {
@@ -34,122 +35,11 @@
     inset 0 0 10px 10px var(--color-absolute-zero);
 }
 
-.main-image .icon1 {
-  max-width: 90px;
-  max-height: 90px;
-  position: absolute;
-  transition: 1.5s all ease;
-  opacity: 1;
-}
-
-.main-image .icon2 {
-  max-width: 90px;
-  max-height: 90px;
-  transition: 2s all ease;
+.main-image:hover .main-figure > .icon1 {
   opacity: 0;
 }
 
-.main-image:hover .icon1 {
-  opacity: 0;
-}
-
-.main-image:hover .icon2 {
-  transform: scale(1.12);
+.main-image:hover .main-figure > .icon2 {
+  transform: scale(1.05);
   opacity: 1;
-}
-
-.main-image > .figure1 {
-  position: absolute;
-  top: 60px;
-  left: 120px;
-
-  animation: icon-move 3s linear 3.6s infinite alternate;
-}
-
-.main-image > .figure2 {
-  position: absolute;
-  top: 60px;
-  left: 360px;
-
-  animation: icon-move 3s linear 2.4s infinite alternate;
-}
-
-.main-image > .figure3 {
-  position: absolute;
-  bottom: 60px;
-  left: 120px;
-
-  animation: icon-move 3s linear 1.5s infinite alternate;
-}
-
-.main-image > .figure4 {
-  position: absolute;
-  bottom: 60px;
-  left: 360px;
-
-  animation: icon-move 3s linear 0.6s infinite alternate;
-}
-
-@keyframes icon-move {
-  0% {
-    transform: translate(0);
-  }
-
-  100% {
-    transform: translate(0%, 50%);
-  }
-}
-
-.main-image > .figure1 > .icon2 > .path1 {
-  fill: var(--color-portland-orange);
-}
-
-.main-image > .figure1 > .icon2 > .path2 {
-  fill: var(--color-Mango-tango);
-}
-
-.main-image > .figure1 > .icon2 > .path3,
-.main-image > .figure2 > .icon2 > .path3,
-.main-image > .figure3 > .icon2 > .path8,
-.main-image > .figure4 > .icon2 > .path2 {
-  fill: var(--color-black-coral);
-}
-
-.main-image > .figure1 > .icon2 > .path4,
-.main-image > .figure2 > .icon2 > .path5,
-.main-image > .figure3 > .icon2 > .path3,
-.main-image > .figure3 > .icon2 > .path4,
-.main-image > .figure3 > .icon2 > .path6 {
-  fill: var(--color-cultured);
-}
-
-.main-image > .figure1 > .icon2 > .path5,
-.main-image > .figure2 > .icon2 > .path6,
-.main-image > .figure4 > .icon2 > .circle {
-  fill: var(--color-twinkle-blue);
-}
-
-.main-image > .figure1 > .icon2 > .path6,
-.main-image > .figure2 > .icon2 > .path4 {
-  fill: var(--color-yellow-munsell);
-}
-
-.main-image > .figure2 > .icon2 > .path1 {
-  fill: var(--color-absolute-zero);
-}
-
-.main-image > .figure2 > .icon2 > .path2 {
-  fill: var(--color-bluetiful);
-}
-
-.main-image > .figure3 > .icon2 > .path1 {
-  fill: var(--color-yellow-munsell);
-}
-
-.main-image > .figure3 > .icon2 > .path2 {
-  fill: var(--color-arylide-yellow);
-}
-
-.main-image > .figure4 > .icon2 > .path1 {
-  fill: var(--color-sky-blue);
 }

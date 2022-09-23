@@ -1,0 +1,112 @@
+.main-figure {
+  position: absolute;
+  max-width: 16%;
+  max-height: 20%;
+}
+
+.main-figure > .icon1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 1.5s all ease;
+  opacity: 1;
+}
+
+.main-figure > .icon2 {
+  width: 100%;
+  height: 100%;
+  transition: 2s all ease;
+  opacity: 0;
+}
+
+.main-figure.-one {
+  top: 60px;
+  left: 120px;
+
+  animation: figure-move 3s linear 3.6s infinite alternate;
+}
+
+.main-figure.-two {
+  top: 60px;
+  left: 360px;
+
+  animation: figure-move 3s linear 2.4s infinite alternate;
+}
+
+.main-figure.-three {
+  bottom: 60px;
+  left: 120px;
+
+  animation: figure-move 3s linear 1.5s infinite alternate;
+}
+
+.main-figure.-four {
+  bottom: 60px;
+  left: 360px;
+
+  animation: figure-move 3s linear 0.6s infinite alternate;
+}
+
+.main-image > .main-figure.-one > .icon2 > .path1 {
+  fill: var(--color-portland-orange);
+}
+
+.main-image > .main-figure.-one > .icon2 > .path2 {
+  fill: var(--color-Mango-tango);
+}
+
+.main-image > .main-figure.-one > .icon2 > .path3,
+.main-image > .main-figure.-two > .icon2 > .path3,
+.main-image > .main-figure.-three > .icon2 > .path8,
+.main-image > .main-figure.-four > .icon2 > .path2 {
+  fill: var(--color-black-coral);
+}
+
+.main-image > .main-figure.-one > .icon2 > .path4,
+.main-image > .main-figure.-two > .icon2 > .path5,
+.main-image > .main-figure.-three > .icon2 > .path3,
+.main-image > .main-figure.-three > .icon2 > .path4,
+.main-image > .main-figure.-three > .icon2 > .path6 {
+  fill: var(--color-cultured);
+}
+
+.main-image > .main-figure.-one > .icon2 > .path5,
+.main-image > .main-figure.-two > .icon2 > .path6,
+.main-image > .main-figure.-four > .icon2 > .circle {
+  fill: var(--color-twinkle-blue);
+}
+
+.main-image > .main-figure.-one > .icon2 > .path6,
+.main-image > .main-figure.-two > .icon2 > .path4 {
+  fill: var(--color-yellow-munsell);
+}
+
+.main-image > .main-figure.-two > .icon2 > .path1 {
+  fill: var(--color-absolute-zero);
+}
+
+.main-image > .main-figure.-two > .icon2 > .path2 {
+  fill: var(--color-bluetiful);
+}
+
+.main-image > .main-figure.-three > .icon2 > .path1 {
+  fill: var(--color-yellow-munsell);
+}
+
+.main-image > .main-figure.-three > .icon2 > .path2 {
+  fill: var(--color-arylide-yellow);
+}
+
+.main-image > .main-figure.-four > .icon2 > .path1 {
+  fill: var(--color-sky-blue);
+}
+
+@keyframes figure-move {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(0%, 50%);
+  }
+}
