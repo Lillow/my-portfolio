@@ -1,7 +1,7 @@
 .main-figure {
   position: absolute;
-  max-width: 16%;
-  max-height: 20%;
+  width: 16%;
+  height: 20%;
 }
 
 .main-figure > .icon1 {

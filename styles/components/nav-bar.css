@@ -14,9 +14,3 @@
   display: inline;
   margin-right: 48px;
 }
-
-@media screen and (max-width: 1000px) {
-  .nav-bar > .navigation {
-    display: none;
-  }
-}
