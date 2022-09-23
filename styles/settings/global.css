@@ -1,4 +1,4 @@
-html {
+:root {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -24,7 +24,7 @@ html {
 
 /* Media Queries */
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .nav-bar > .navigation {
     display: none;
   }
@@ -36,75 +36,3 @@ html {
     justify-content: space-around;
   }
 }
-
-/* @media screen and (max-width: 1157px) {
-  .main-title > .text1 {
-    font-size: 1.6rem;
-  }
-
-  .main-title > .text2 {
-    font-size: 2.6rem;
-  }
-} */
-
-/* @media screen and (max-width: 470px) {
-  .main-title > .text1 {
-    font-size: 1.3rem;
-  }
-
-  .main-title > .text2 {
-    font-size: 2.3rem;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .main-title > .text1 {
-    font-size: 1.1rem;
-  }
-
-  .main-title > .text2 {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .main-button {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .main-button {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 1157px) {
-  .main-subtitle > .text1 {
-    font-size: 1.3rem;
-  }
-
-  .main-subtitle > .text2 {
-    font-size: 2.3rem;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .main-subtitle > .text1 {
-    font-size: 1rem;
-  }
-
-  .main-subtitle > .text2 {
-    font-size: 1.8rem;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .main-subtitle > .text1 {
-    font-size: 0.7rem;
-  }
-
-  .main-subtitle > .text2 {
-    font-size: 1.3rem;
-  }
-} */
