@@ -1,4 +1,5 @@
 .main-figure {
+  display: block;
   position: absolute;
   width: 16%;
   height: 20%;
@@ -8,15 +9,17 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  transition: 1.5s all ease;
   opacity: 1;
+
+  transition: 1.5s all ease;
 }
 
 .main-figure > .icon2 {
   width: 100%;
   height: 100%;
-  transition: 2s all ease;
   opacity: 0;
+
+  transition: 2s all ease;
 }
 
 .main-figure.-one {
@@ -109,4 +112,78 @@
   100% {
     transform: translate(0%, 50%);
   }
+}
+
+.main-figure.-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+
+.main-figure.-second .icon1 {
+  width: 100%;
+  height: 100%;
+}
+.main-figure.-second .icon2 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-figure.-second.-html > .icon2 .stroke,
+.main-figure.-second.-css > .icon2 .stroke {
+  stroke: var(--color-black);
+  stroke-width: 18;
+}
+
+.main-figure.-second.-html > .icon2 .path1 {
+  fill: var(--color-portland-orange);
+}
+
+.main-figure.-second.-html > .icon2 .path2 {
+  fill: var(--color-Mango-tango);
+}
+
+.main-figure.-second.-css > .icon2 .path1 {
+  fill: var(--color-absolute-zero);
+}
+
+.main-figure.-second.-css > .icon2 .path2 {
+  fill: var(--color-bluetiful);
+}
+
+.main-figure.-second.-html > .icon2 .path3,
+.main-figure.-second.-css > .icon2 .path3 {
+  fill: var(--color-white);
+}
+
+.main-figure.-second.-html > .icon2 .path4,
+.main-figure.-second.-css > .icon2 .path4 {
+  fill: var(--color-cultured);
+}
+
+.main-figure.-second.-js > .icon2 .path1 {
+  fill: var(--color-yellow-munsell);
+}
+
+.main-figure.-second.-js > .icon2 .path2 {
+  stroke-width: 20;
+  stroke: var(--color-black);
+}
+
+.main-figure.-second.-react > .icon2 .path1 {
+  fill: var(--color-sky-blue);
+}
+
+.main-figure.-second.-react > .icon2 .path2 {
+  fill: var(--color-black);
+}
+
+.main-figure.-second.-java > .icon2 .path1 {
+  fill: var(--color-red-pigment);
+}
+
+.main-figure.-second.-java > .icon2 .path2 {
+  fill: var(--color-absolute-zero);
 }
