@@ -1,23 +1,20 @@
 .main-wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.main-wrapper.-banner {
   max-width: 45%;
   min-width: 40%;
 }
 
-.main-wrapper > .main-box {
+.main-wrapper.-banner > .main-box {
   margin-bottom: 38px;
 }
 
-.main-wrapper > .navigation {
+.main-wrapper.-banner > .navigation {
   display: flex;
   justify-content: space-around;
-}
-
-@media screen and (max-width: 800px) {
-  .main-wrapper {
-    margin-top: 6vh;
-  }
 }
 
 .main-wrapper.-grey {
