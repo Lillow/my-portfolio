@@ -3,13 +3,14 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  max-width: 51%;
+  max-width: 50%;
+  min-width: 45%;
 
   transition: transform 1s linear;
 }
 
 .main-image:hover {
-  transform: scale(1.08);
+  transform: scale(1.06);
 }
 
 .main-image .lillow {

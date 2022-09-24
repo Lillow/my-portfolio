@@ -33,19 +33,11 @@
   .main-box.-purple {
     width: 100%;
   }
-
-  .main-image {
-    max-width: 45vw;
-  }
 }
 
 @media (max-width: 1000px) {
   .nav-bar > .navigation {
     display: none;
-  }
-
-  .main-image {
-    max-width: 50vw;
   }
 }
 
@@ -53,10 +45,6 @@
   .main-cards.-purple {
     width: 40%;
     margin: 20px 0px;
-  }
-
-  .main-image {
-    max-width: 55%;
   }
 }
 
