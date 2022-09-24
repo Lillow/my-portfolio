@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 595px;
+  max-width: 51%;
 
   transition: transform 1s linear;
 }

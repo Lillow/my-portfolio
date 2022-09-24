@@ -33,28 +33,19 @@
   .main-box.-purple {
     width: 100%;
   }
+
+  .main-image {
+    max-width: 45vw;
+  }
 }
-
-/* @media (max-width: 1105px) {
-  .main-container.-grey.-second {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .main-box.-purple {
-  }
-} */
 
 @media (max-width: 1000px) {
   .nav-bar > .navigation {
     display: none;
   }
 
-  .main-banner {
-    height: 140vh;
-    padding: 5vh;
-    flex-direction: column;
-    justify-content: space-around;
+  .main-image {
+    max-width: 50vw;
   }
 }
 
@@ -62,6 +53,10 @@
   .main-cards.-purple {
     width: 40%;
     margin: 20px 0px;
+  }
+
+  .main-image {
+    max-width: 55%;
   }
 }
 
