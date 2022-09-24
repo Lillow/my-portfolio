@@ -1,6 +1,5 @@
 .main-container {
   display: flex;
-  justify-content: space-around;
 }
 
 .main-container:hover + .main-title.-second > .text1 {
@@ -13,6 +12,11 @@
 
 .main-container.-grey {
   flex-direction: column;
+}
+
+.main-container.-grey.-second {
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .main-container.-purple {

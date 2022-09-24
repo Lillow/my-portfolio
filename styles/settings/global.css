@@ -24,6 +24,16 @@
 
 /* Media Queries */
 
+/* @media (max-width: 1105px) {
+  .main-container.-grey.-second {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .main-box.-purple {
+  }
+} */
+
 @media (max-width: 1000px) {
   .nav-bar > .navigation {
     display: none;
