@@ -2,10 +2,9 @@
   display: inline-flex;
   color: var(--color-twinkle-blue);
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   align-items: center;
 }
-
 .main-action::before {
   content: "";
   background-color: var(--color-gloomy-purple);

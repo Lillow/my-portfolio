@@ -12,12 +12,6 @@
   transition: 0.4s;
 }
 
-@media screen and (max-width: 1000px) {
-  .mobile-menu {
-    display: block;
-  }
-}
-
 .mobile-menu.active .line.-one {
   transform: rotate(-45deg) translate(-10px, 8px);
 }

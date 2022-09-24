@@ -8,13 +8,13 @@
 
 .main-title > .text1 {
   font-family: "Press Start 2P", sans-serif;
-  font-size: 30px;
+  font-size: 1.8rem;
   text-shadow: 3px 3px 0 var(--color-black);
 }
 
 .main-title > .text2 {
   font-weight: 700;
-  font-size: 42px;
+  font-size: 3rem;
   position: absolute;
   opacity: 0;
   text-shadow: 3px 3px 2px var(--color-black);
@@ -25,13 +25,13 @@
 }
 
 .main-title.-second > .text1 {
-  font-size: 24px;
+  font-size: 1.6rem;
   transition: opacity 400ms linear;
   text-shadow: none;
 }
 
 .main-title.-second > .text2 {
-  font-size: 36px;
+  font-size: 2.5rem;
   transition: opacity 200ms linear;
   text-shadow: none;
 }

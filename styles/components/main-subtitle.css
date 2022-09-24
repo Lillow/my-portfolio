@@ -8,13 +8,13 @@
 
 .main-subtitle > .text1 {
   font-family: "Press Start 2P", sans-serif;
-  font-size: 28px;
+  font-size: 1.6rem;
 }
 
 .main-subtitle > .text2 {
   position: absolute;
   display: none;
-  font-size: 38px;
+  font-size: 2.8rem;
 }
 
 .main-subtitle > .text2::after {
