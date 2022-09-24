@@ -1,5 +1,6 @@
 .nav-bar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   --color-black-coral: #778ca370;
   background-color: var(--color-black-coral);
