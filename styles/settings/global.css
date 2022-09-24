@@ -24,6 +24,17 @@
 
 /* Media Queries */
 
+@media (max-width: 1200px) {
+  .main-wrapper.-grey {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .main-box.-purple {
+    width: 100%;
+  }
+}
+
 /* @media (max-width: 1105px) {
   .main-container.-grey.-second {
     flex-direction: column-reverse;
@@ -44,5 +55,18 @@
     padding: 5vh;
     flex-direction: column;
     justify-content: space-around;
+  }
+}
+
+@media (max-width: 720px) {
+  .main-cards.-purple {
+    width: 40%;
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .main-box.-purple > .main-text.-second {
+    font-size: 0.85em;
   }
 }

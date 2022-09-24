@@ -17,6 +17,8 @@
 .main-container.-grey.-second {
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .main-container.-purple {

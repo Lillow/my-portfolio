@@ -23,7 +23,7 @@ js.addEventListener("mouseover", function changeText() {
 
 react.addEventListener("mouseover", function changeText() {
   text2.innerHTML =
-    "<span class= 'emphasis -blue1 -second'>React</span> <br> É uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário (front-end) em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.";
+    "<span class= 'emphasis -blue1 -second'>React</span> <br> É uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário (front-end) em páginas web.";
 });
 
 java.addEventListener("mouseover", function changeText() {

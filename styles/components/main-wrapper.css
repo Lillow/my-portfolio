@@ -20,8 +20,9 @@
 
 .main-wrapper.-grey {
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   flex-direction: row;
+  width: 50%;
 }
 
 .main-wrapper.-grey:hover + .main-box.-purple {

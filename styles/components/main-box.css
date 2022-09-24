@@ -58,8 +58,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 8px;
   width: 45%;
-  height: 305px;
+  min-height: 300px;
   background-color: var(--color-russian-violet);
 }
 
