@@ -25,43 +25,44 @@
 }
 
 .main-button.-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
-  position: absolute;
   bottom: 40px;
+  position: absolute;
   border: none;
-  cursor: pointer;
+  padding: 0px;
 }
 
 .main-button.-arrow.-left {
   left: 1.5%;
+  padding-right: 0.1%;
 }
 
 .main-button.-arrow.-right {
   right: 1.5%;
+  padding-left: 0.1%;
 }
 
 .main-button.-arrow > .content {
+  display: block;
+  width: 65%;
+  height: 65%;
+  background-color: var(--color-cultured);
+}
+
+.main-button.-arrow > .content > .text {
   display: none;
 }
 
-.main-button.-arrow::before {
-  content: "";
-  display: block;
-  box-sizing: border-box;
-  width: 15px;
-  height: 15px;
-  border: 15px solid transparent;
-  border-top: 28px solid var(--color-cultured);
-  transform: translateY(-3px);
+.main-button.-arrow.-left > .content {
+  clip-path: polygon(100% 0, 0 50%, 100% 100%);
 }
 
-.main-button.-arrow.-left::before {
-  transform: rotate(90deg) translateY(13px);
-}
-
-.main-button.-arrow.-right::before {
-  transform: rotate(-90deg) translateY(3px);
+.main-button.-arrow.-right > .content {
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
 
 .main-button.-second {
