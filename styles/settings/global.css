@@ -38,6 +38,10 @@
     width: 100%;
   }
 
+  .main-wrapper.-grey.-second {
+    margin-top: 0;
+  }
+
   .main-box.-purple {
     width: 100%;
   }
