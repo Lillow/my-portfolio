@@ -34,9 +34,8 @@ class MobileMenu {
 
 const mobileMenu = new MobileMenu(
   ".mobile-menu",
-  ".nav-list",
-  ".nav-list .item",
-  ".nav-list .item .main-action"
+  ".main-navlist",
+  ".main-navlist .item"
 );
 
 mobileMenu.init();

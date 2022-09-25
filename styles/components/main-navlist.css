@@ -1,7 +1,7 @@
-.nav-list {
+.main-navlist {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   justify-content: space-evenly;
   position: absolute;
   top: 6.9vh;
@@ -16,6 +16,6 @@
   transition: transform 400ms linear;
 }
 
-.nav-list.active {
+.main-navlist.active {
   transform: translateX(0);
 }
