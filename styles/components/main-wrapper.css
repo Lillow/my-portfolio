@@ -5,8 +5,7 @@
 }
 
 .main-wrapper.-banner {
-  max-width: 45%;
-  min-width: 40%;
+  width: 50%;
 }
 
 .main-wrapper.-banner > .main-box {
