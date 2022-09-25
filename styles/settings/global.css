@@ -62,7 +62,7 @@
   }
 
   .main-cards.-grey {
-    width: 60%;
+    width: 70%;
   }
 
   .main-cards.-purple {
@@ -80,15 +80,16 @@
     font-size: 60%;
   }
 
+  .main-cards.-grey {
+    width: 80%;
+  }
+
   .main-figure.-second .icon1 {
     width: 100%;
   }
 }
 
 @media (max-width: 375px) {
-  .main-cards.-grey {
-    width: 80%;
-  }
 }
 
 @media (max-width: 320px) {
