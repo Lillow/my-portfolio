@@ -68,12 +68,12 @@
 
 .main-box.-grey.-inner {
   position: absolute;
-  top: -5%;
+  top: 2vh;
   right: 0;
   bottom: 0;
   left: 0;
   width: 80%;
-  height: 80%;
+  height: 82vh;
   margin: auto;
   overflow: auto;
   padding: 1em 2em;
