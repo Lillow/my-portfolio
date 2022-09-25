@@ -23,6 +23,11 @@
 }
 
 /* Media Queries */
+@media (min-width: 2560px) {
+  :root {
+    font-size: 200%;
+  }
+}
 
 @media (max-width: 1024px) {
   .main-navbar > .navigation {

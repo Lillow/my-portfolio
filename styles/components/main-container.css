@@ -28,7 +28,7 @@
 
 .main-container.-purple.-second {
   padding: 0 24px 0 30px;
-  max-width: 100%;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
 }
