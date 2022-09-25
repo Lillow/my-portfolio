@@ -5,9 +5,7 @@
   display: inline-block;
   color: var(--color-cultured);
   background-color: var(--color-gloomy-purple);
-  height: 48px;
-  line-height: 3rem;
-  padding: 0 16px;
+  padding: 16px;
   box-shadow: 5px 5px 0px var(--color-black);
   margin-right: 0;
   transition: all 200ms linear;
