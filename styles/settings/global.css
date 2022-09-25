@@ -52,9 +52,9 @@
 }
 
 @media (max-width: 768px) {
-  /* :root {
-    font-size: 65%;
-  } */
+  :root {
+    font-size: 80%;
+  }
 
   .main-cards.-purple {
     width: 40%;
@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 425px) {
+  :root {
+    font-size: 60%;
+  }
+
   .main-box.-purple > .main-text.-second {
     font-size: 0.85em;
   }
