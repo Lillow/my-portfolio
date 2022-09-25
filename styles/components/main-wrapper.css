@@ -36,8 +36,9 @@
 
 .main-wrapper.-purple {
   width: 100%;
+  height: 40vh;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .main-wrapper.-grey.-second {
