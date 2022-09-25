@@ -33,7 +33,7 @@ class MobileMenu {
 }
 
 const mobileMenu = new MobileMenu(
-  ".mobile-menu",
+  ".main-mobilemenu",
   ".main-navlist",
   ".main-navlist .item"
 );

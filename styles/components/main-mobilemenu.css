@@ -1,10 +1,10 @@
-.mobile-menu {
+.main-mobilemenu {
   display: none;
   margin-right: 30px;
   cursor: pointer;
 }
 
-.mobile-menu > .line {
+.main-mobilemenu > .line {
   width: 32px;
   height: 3px;
   background-color: var(--color-twinkle-blue);
@@ -12,14 +12,14 @@
   transition: 0.4s;
 }
 
-.mobile-menu.active .line.-one {
+.main-mobilemenu.active .line.-one {
   transform: rotate(-45deg) translate(-10px, 8px);
 }
 
-.mobile-menu.active .line.-two {
+.main-mobilemenu.active .line.-two {
   opacity: 0;
 }
 
-.mobile-menu.active .line.-three {
+.main-mobilemenu.active .line.-three {
   transform: rotate(45deg) translate(-7px, -5px);
 }
