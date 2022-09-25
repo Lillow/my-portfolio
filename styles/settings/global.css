@@ -25,10 +25,6 @@
 /* Media Queries */
 
 @media (max-width: 1024px) {
-  :root {
-    font-size: 80%;
-  }
-
   .nav-bar > .navigation {
     display: none;
   }
@@ -45,12 +41,24 @@
   .main-box.-purple {
     width: 100%;
   }
+
+  .main-figure.-second .icon1 {
+    width: 65%;
+  }
 }
 
 @media (max-width: 768px) {
+  /* :root {
+    font-size: 65%;
+  } */
+
   .main-cards.-purple {
     width: 40%;
     margin: 20px 0px;
+  }
+
+  .main-figure.-second .icon1 {
+    width: 45%;
   }
 }
 
@@ -58,7 +66,17 @@
   .main-box.-purple > .main-text.-second {
     font-size: 0.85em;
   }
+
+  .main-figure.-second .icon1 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+  .main-figure.-second .icon1 {
+    height: 75%;
+  }
 }
