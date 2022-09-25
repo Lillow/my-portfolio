@@ -1,4 +1,4 @@
-.nav-bar {
+.main-navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,7 +11,7 @@
   position: fixed;
 }
 
-.nav-bar > .navigation > .menu > .item {
+.main-navbar > .navigation > .menu > .item {
   display: inline;
   margin-right: 48px;
 }

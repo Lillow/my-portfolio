@@ -25,7 +25,7 @@
 /* Media Queries */
 
 @media (max-width: 1024px) {
-  .nav-bar > .navigation {
+  .main-navbar > .navigation {
     display: none;
   }
 
