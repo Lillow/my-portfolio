@@ -25,16 +25,6 @@
   width: 50%;
 }
 
-.main-wrapper.-grey:hover + .main-box.-purple {
-  border-radius: 10px;
-  background: radial-gradient(
-    circle,
-    var(--color-gloomy-purple) 10%,
-    var(--color-russian-violet) 100%
-  );
-  box-shadow: 10px 10px 2px var(--color-black);
-}
-
 .main-wrapper.-purple {
   flex-direction: row;
   justify-content: space-between;
