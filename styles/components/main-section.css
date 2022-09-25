@@ -1,5 +1,5 @@
 .main-section {
-  padding: 80px 60px 100px;
+  padding: 8% 5%;
   border-bottom: 6px solid var(--color-black);
   display: flex;
   flex-direction: column-reverse;
@@ -7,14 +7,15 @@
 
 .main-section.-grey {
   background-color: var(--color-black-coral);
-  padding: 80px 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-section.-grey.-second {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .main-section.-purple {
   background-color: var(--color-russian-violet);
-}
-
-.main-section.-grey.-second {
-  position: relative;
-  padding: 80px 0 100px;
 }
