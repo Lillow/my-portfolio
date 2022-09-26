@@ -50,6 +50,10 @@
     width: 74%;
   }
 
+  .main-cards.-node.-six {
+    display: none;
+  }
+
   .main-wrapper.-grey {
     margin-top: 50px;
     width: 100%;
@@ -76,6 +80,10 @@
   .main-wrapper.-banner,
   .main-image {
     width: 85%;
+  }
+
+  .main-cards.-node.-five {
+    display: none;
   }
 
   .main-wrapper.-purple {
@@ -107,6 +115,10 @@
     width: 100%;
   }
 
+  .main-cards.-node.-four {
+    display: none;
+  }
+
   .main-cards.-grey {
     width: 80%;
   }
@@ -117,6 +129,9 @@
 }
 
 @media (max-width: 375px) {
+  .main-cards.-node.-three {
+    display: none;
+  }
 }
 
 @media (max-width: 320px) {
