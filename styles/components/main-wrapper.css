@@ -4,6 +4,7 @@
   width: 100%;
 }
 
+/*************** main-wrapper-banner ***************/
 .main-wrapper.-banner {
   width: 50%;
 }
@@ -17,6 +18,7 @@
   justify-content: space-around;
 }
 
+/*************** main-wrapper-grey ***************/
 .main-wrapper.-grey {
   flex-wrap: wrap;
   gap: 20px;
@@ -24,12 +26,7 @@
   width: 50%;
 }
 
-.main-wrapper.-purple {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
+/*************** main-wrapper-grey-second ***************/
 .main-wrapper.-grey.-second {
   width: 85%;
   flex-wrap: nowrap;
@@ -42,4 +39,11 @@
   display: flex;
   justify-content: space-around;
   transition: transform 100ms ease-in-out;
+}
+
+/*************** main-wrapper-purple ***************/
+.main-wrapper.-purple {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

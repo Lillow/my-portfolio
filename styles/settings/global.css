@@ -22,7 +22,7 @@
   background-color: var(--color-gloomy-purple);
 }
 
-/* Media Queries */
+/* Breakpoints */
 @media (min-width: 2560px) {
   :root {
     font-size: 200%;

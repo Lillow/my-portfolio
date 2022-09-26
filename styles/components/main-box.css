@@ -8,7 +8,7 @@
   transition-duration: 400ms;
   transition-timing-function: ease-in-out;
 }
-
+/*************** main-box-grey ***************/
 .main-box.-grey {
   text-align: center;
   background-color: var(--color-black-coral);
@@ -53,19 +53,7 @@
   display: inline;
 }
 
-.main-box.-purple {
-  line-height: 1.8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  height: auto;
-  padding: 8px;
-  width: 45%;
-  min-height: 300px;
-  background-color: var(--color-russian-violet);
-}
-
+/*************** main-box-grey-inner ***************/
 .main-box.-grey.-inner {
   position: absolute;
   top: 2vh;
@@ -118,4 +106,18 @@
 
 .main-box.-grey.-inner > .close:before {
   transform: rotate(-45deg);
+}
+
+/*************** main-box-purple ***************/
+.main-box.-purple {
+  line-height: 1.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 8px;
+  width: 45%;
+  min-height: 300px;
+  background-color: var(--color-russian-violet);
 }

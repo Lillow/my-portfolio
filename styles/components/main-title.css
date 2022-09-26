@@ -20,6 +20,7 @@
   text-shadow: 3px 3px 2px var(--color-black);
 }
 
+/*************** main-title-second ***************/
 .main-title.-second {
   color: var(--color-cultured);
 }

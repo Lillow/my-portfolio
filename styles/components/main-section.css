@@ -5,17 +5,20 @@
   flex-direction: column-reverse;
 }
 
+/*************** main-section-grey ***************/
 .main-section.-grey {
   background-color: var(--color-black-coral);
   padding-left: 0;
   padding-right: 0;
 }
 
+/*************** main-section-grey-second ***************/
 .main-section.-grey.-second {
   padding-left: 5%;
   padding-right: 5%;
 }
 
+/*************** main-section-purple ***************/
 .main-section.-purple {
   background-color: var(--color-russian-violet);
 }

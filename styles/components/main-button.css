@@ -22,6 +22,18 @@
   transform: scale(1.08);
 }
 
+/*************** main-button-second ***************/
+.main-button.-second {
+  margin-top: 15px;
+}
+
+.main-button.-second:hover {
+  border-radius: 0;
+  box-shadow: 5px 5px 0px var(--color-black);
+  transform: scale(1);
+}
+
+/*************** main-button-arrow ***************/
 .main-button.-arrow {
   display: flex;
   justify-content: center;
@@ -61,14 +73,4 @@
 
 .main-button.-arrow.-right > .content {
   clip-path: polygon(0 0, 100% 50%, 0 100%);
-}
-
-.main-button.-second {
-  margin-top: 15px;
-}
-
-.main-button.-second:hover {
-  border-radius: 0;
-  box-shadow: 5px 5px 0px var(--color-black);
-  transform: scale(1);
 }
