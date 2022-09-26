@@ -1,4 +1,5 @@
 // Move carousel
+/************************************************************************
 const btnRight = document.querySelector(".main-button.-arrow.-right");
 const btnLeft = document.querySelector(".main-button.-arrow.-left");
 const elements = document.querySelector(
@@ -15,6 +16,7 @@ btnLeft.addEventListener("click", () => {
   count += 100;
   elements.style = `transform: translateX(${count}px)`;
 });
+************************************************************************/
 
 // Carousel text
 let text1 = document.querySelector(".main-text");
