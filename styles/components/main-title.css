@@ -31,6 +31,12 @@
   text-shadow: none;
 }
 
+/* temporary */
+.main-title.-second > .text1.-second {
+  color: red;
+}
+/***********/
+
 .main-title.-second > .text2 {
   font-size: 2.5rem;
   transition: opacity 200ms linear;

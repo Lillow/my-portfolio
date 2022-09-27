@@ -41,6 +41,12 @@
   opacity: 0;
 }
 
+/* temporary */
+.main-box.-grey:hover .main-title > .text1.-second {
+  opacity: 1;
+}
+/***********/
+
 .main-box.-grey:hover .main-title > .text2 {
   opacity: 1;
 }
