@@ -40,8 +40,9 @@
 
   .main-container.-purple.-second {
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: 15vh;
+    margin-bottom: 15vh;
     height: 100vh;
   }
 
