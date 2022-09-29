@@ -29,6 +29,7 @@
   }
 }
 
+/* 1024px */
 @media (max-width: 1024px) {
   .main-navbar > .navigation {
     display: none;
@@ -51,7 +52,7 @@
     width: 74%;
   }
 
-  .main-cards.-node.-six {
+  .main-cards.-node.-five {
     display: none;
   }
 
@@ -73,6 +74,7 @@
   }
 }
 
+/* 768px */
 @media (max-width: 768px) {
   :root {
     font-size: 80%;
@@ -83,7 +85,7 @@
     width: 85%;
   }
 
-  .main-cards.-node.-five {
+  .main-cards.-node.-four {
     display: none;
   }
 
@@ -106,6 +108,7 @@
   }
 }
 
+/* 425px */
 @media (max-width: 425px) {
   :root {
     font-size: 75%;
@@ -116,7 +119,7 @@
     width: 100%;
   }
 
-  .main-cards.-node.-four {
+  .main-cards.-node.-three {
     display: none;
   }
 
@@ -129,16 +132,14 @@
   }
 }
 
+/* 375px */
 @media (max-width: 375px) {
-  .main-cards.-node.-three {
-    display: none;
-  }
-
   .main-button {
     font-size: 120%;
   }
 }
 
+/* 320px */
 @media (max-width: 320px) {
   .main-figure.-second .icon1 {
     height: 75%;
