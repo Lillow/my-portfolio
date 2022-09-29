@@ -5,6 +5,7 @@
   font-size: 1.5rem;
   align-items: center;
 }
+
 .main-action::before {
   content: "";
   background-color: var(--color-gloomy-purple);
@@ -31,9 +32,21 @@
 
 .main-action.-second {
   margin-top: 90px;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .main-action.-second::before {
   display: none;
+}
+
+/*************** main-action-mobile ***************/
+
+.main-action.-second.-mobile {
+  margin-top: 0;
+  font-size: 2rem;
+  color: var(--color-cultured);
+}
+
+.main-action.-second.-mobile:hover {
+  color: var(--color-gloomy-purple);
 }
