@@ -133,6 +133,10 @@
   .main-cards.-node.-three {
     display: none;
   }
+
+  .main-button {
+    font-size: 120%;
+  }
 }
 
 @media (max-width: 320px) {
