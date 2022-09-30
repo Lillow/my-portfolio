@@ -42,8 +42,6 @@
   .main-container.-purple.-second {
     justify-content: space-evenly;
     flex-direction: column-reverse;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
     height: 100vh;
   }
 
@@ -143,5 +141,9 @@
 @media (max-width: 320px) {
   .main-figure.-second .icon1 {
     height: 75%;
+  }
+
+  .main-container.-purple.-second {
+    padding: 14px;
   }
 }

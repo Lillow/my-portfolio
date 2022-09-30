@@ -28,8 +28,9 @@
   align-items: center;
 }
 
+/*************** main-container-purple-second ***************/
 .main-container.-purple.-second {
-  padding: 0 24px 0 30px;
+  padding: 0 5vw;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
