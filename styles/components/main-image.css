@@ -4,6 +4,7 @@
   align-items: center;
   position: relative;
   width: 50%;
+  min-width: 272px;
 
   transition: transform 1s linear;
 }
