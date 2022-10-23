@@ -12,7 +12,7 @@
   height: 100%;
   opacity: 1;
 
-  transition: 1.5s all ease;
+  animation: opacity-animation1 5s linear 5s infinite alternate;
 }
 
 .main-figure > .icon2 {
@@ -20,7 +20,7 @@
   height: 100%;
   opacity: 0;
 
-  transition: 2s all ease;
+  animation: opacity-animation2 5s linear 5s infinite alternate;
 }
 
 .main-figure.-one {
@@ -188,5 +188,28 @@
 
   100% {
     transform: translate(0%, 50%);
+  }
+}
+
+/*************** opacity-animation1 ***************/
+@keyframes opacity-animation1 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/*************** opacity-animation2 ***************/
+@keyframes opacity-animation2 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 1;
   }
 }
