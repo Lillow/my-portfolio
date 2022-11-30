@@ -11,26 +11,16 @@
   width: 100%;
   height: 100%;
   opacity: 1;
+
+  transition: opacity 1s linear;
 }
 
 .main-figure > .icon2 {
   width: 100%;
   height: 100%;
   opacity: 0;
-}
 
-.main-figure.-one > .icon1,
-.main-figure.-two > .icon1,
-.main-figure.-three > .icon1,
-.main-figure.-four > .icon1 {
-  animation: opacity-animation1 10s linear 5s infinite alternate;
-}
-
-.main-figure.-one > .icon2,
-.main-figure.-two > .icon2,
-.main-figure.-three > .icon2,
-.main-figure.-four > .icon2 {
-  animation: opacity-animation2 10s linear 5s infinite alternate;
+  transition: all 1.5s linear;
 }
 
 .main-figure.-one {
@@ -202,28 +192,5 @@
 
   100% {
     transform: translate(0%, 50%);
-  }
-}
-
-/*************** opacity-animation1 ***************/
-@keyframes opacity-animation1 {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-/*************** opacity-animation2 ***************/
-@keyframes opacity-animation2 {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    transform: scale(1.2);
-    opacity: 1;
   }
 }

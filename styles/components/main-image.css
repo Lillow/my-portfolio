@@ -5,7 +5,6 @@
   position: relative;
   width: 50%;
   min-width: 272px;
-  animation: figure-scale 5s linear 5s infinite alternate;
 
   transition: transform 1s linear;
 }
@@ -26,26 +25,19 @@
   top: 61.91%;
   left: 37.25%;
 
-  animation: flash-light 5s linear 5s infinite alternate;
+  transition: all 1.5s linear;
 }
 
-/*************** figure-scale ***************/
-@keyframes figure-scale {
-  0% {
-    transform: scale(1);
-  }
-
-  100% {
-    transform: scale(1.07);
-  }
+.main-image:hover::after {
+  box-shadow: 0px 0px 7.8px 3.5px var(--color-absolute-zero),
+    inset 0 0 5px 5px var(--color-absolute-zero);
 }
 
-/*************** flash-light ***************/
-@keyframes flash-light {
-  0% {
-  }
-  100% {
-    box-shadow: 0px 0px 7.8px 3.5px var(--color-absolute-zero),
-      inset 0 0 10px 10px var(--color-absolute-zero);
-  }
+.main-image:hover .main-figure > .icon1 {
+  opacity: 0;
+}
+
+.main-image:hover .main-figure > .icon2 {
+  transform: scale(1.05);
+  opacity: 1;
 }
