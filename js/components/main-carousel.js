@@ -22,6 +22,7 @@ btnLeft.addEventListener("click", () => {
 let text1 = document.querySelector(".main-text");
 const generation = document.querySelector(".box.-generation");
 const estacio = document.querySelector(".box.-estacio");
+const procenge = document.querySelector(".box.-procenge");
 
 generation.addEventListener("mouseover", function changeText() {
   text1.innerHTML =
@@ -31,6 +32,11 @@ generation.addEventListener("mouseover", function changeText() {
 estacio.addEventListener("mouseover", function changeText() {
   text1.innerHTML =
     "<span class= 'emphasis -blue -second'>*ATUALMENTE*</span></br>Em 2022 iniciou os estudos em <span class= 'emphasis -blue'>Análise e Desenvolvimento de Sistemas</span> na faculdade <span class= 'emphasis -blue'>Estácio Do Recife</span>-PE.</br></br></br></br></br></br>";
+});
+
+procenge.addEventListener("mouseover", function changeText() {
+  text1.innerHTML =
+    "<span class= 'emphasis -yellow1 -second'>*ATUALMENTE*</span></br>Em 2023 iniciou como <span class= 'emphasis -yellow1'>Estagiário</span> na <span class= 'emphasis -yellow1'>PROCENGE</span>-PE.</br></br></br></br></br></br>";
 });
 
 let quitBox = document.getElementsByClassName("quitBox");

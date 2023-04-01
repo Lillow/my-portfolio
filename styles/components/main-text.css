@@ -34,6 +34,10 @@
   color: var(--color-yellow-munsell);
 }
 
+.main-text .emphasis.-yellow1 {
+  color: var(--color-sffron);
+}
+
 .main-text .emphasis.-red {
   color: var(--color-red-pigment);
 }
