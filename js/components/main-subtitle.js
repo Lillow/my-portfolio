@@ -10,6 +10,6 @@ function typeWrite(element) {
 }
 
 box.addEventListener("click", () => {
-  subtitle.innerHTML = "FullStack Developer Jr.";
+  subtitle.innerHTML = "FullStack Developer";
   typeWrite(subtitle);
 });
