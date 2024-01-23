@@ -1,4 +1,4 @@
-const subtitle = document.querySelector(".main-subtitle > .text2");
+// const subtitle = document.querySelector(".main-subtitle > .text2");
 const box = document.querySelector(".main-box.-grey");
 
 function typeWrite(element) {
@@ -10,11 +10,14 @@ function typeWrite(element) {
 }
 
 box.addEventListener("click", () => {
-	subtitle = null;
-	if (subtitle == null) {
-		subtitle.innerHTML = "FullStack Developer";
-		typeWrite(subtitle);
-	} else {
-		subtitle = null;
-	}
+	const subtitle = document.querySelector(".main-subtitle > .text2");
+	subtitle.innerHTML = "FullStack Developer";
+	typeWrite(subtitle);
+	// subtitle = null;
+	// if (subtitle == null) {
+	// 	subtitle.innerHTML = "FullStack Developer";
+	// 	typeWrite(subtitle);
+	// } else {
+	// 	subtitle = null;
+	// }
 });
