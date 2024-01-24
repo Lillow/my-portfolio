@@ -1,23 +1,23 @@
-// const subtitle = document.querySelector(".main-subtitle > .text2");
+const subtitle = document.querySelector(".main-subtitle > .text2");
 const box = document.querySelector(".main-box.-grey");
+let isAnimating = false;
 
-function typeWrite(element) {
-	const textArray = element.innerHTML.split("");
-	element.innerHTML = " ";
-	textArray.forEach((letter, i) => {
-		setTimeout(() => (element.innerHTML += letter), 75 * i);
-	});
+async function typeWrite(element, text) {
+  for (let i = 0; i < text.length; i++) {
+    await new Promise(resolve => {
+      setTimeout(() => {
+        element.innerHTML += text[i];
+        resolve();
+      }, 75);
+    });
+  }
 }
 
-box.addEventListener("click", () => {
-	const subtitle = document.querySelector(".main-subtitle > .text2");
-	subtitle.innerHTML = "FullStack Developer";
-	typeWrite(subtitle);
-	// subtitle = null;
-	// if (subtitle == null) {
-	// 	subtitle.innerHTML = "FullStack Developer";
-	// 	typeWrite(subtitle);
-	// } else {
-	// 	subtitle = null;
-	// }
+box.addEventListener("click", async () => {
+  if (!isAnimating) {
+    isAnimating = true;
+    subtitle.innerHTML = "";
+    await typeWrite(subtitle, "FullStack Developer");
+    isAnimating = false;
+  }
 });
